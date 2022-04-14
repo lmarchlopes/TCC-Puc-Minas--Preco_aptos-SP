@@ -19,4 +19,6 @@ link de origem
 https://www.prefeitura.sp.gov.br/cidade/secretarias/upload/Domicilios_faixa_rendimento_sal_minimos_2010.xls
 
 
-Apresentaçao - TCC - youtube.ppt - Apresentaçao do TCC em ppt. Vídeo disponibilizado no youtube: https://youtu.be/uUP2CvGJk2I
+Apresentaçao - TCC - Youtube.ppt - Apresentaçao do TCC em ppt. Vídeo disponibilizado no youtube: https://www.youtube.com/watch?v=Iiryjz9YOPw
+
+Mapa de resultados - Arquivo html contendo mapa de resultados das acurácias por distritos e informando a média dos preços.
