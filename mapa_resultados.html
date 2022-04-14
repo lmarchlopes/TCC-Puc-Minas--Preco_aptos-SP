@@ -1,0 +1,3197 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_073dbf557ff74bd0a3ba41421c53bc51 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_073dbf557ff74bd0a3ba41421c53bc51" ></div>
+        
+</body>
+<script>    
+    
+            var map_073dbf557ff74bd0a3ba41421c53bc51 = L.map(
+                "map_073dbf557ff74bd0a3ba41421c53bc51",
+                {
+                    center: [-23.55, -46.63],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b67954691cb34920b90c83dce3b7ab64 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+    
+            var feature_group_1e4f70cf09a14f9c9b8ce9b511b9e04c = L.featureGroup(
+                {}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+    
+            var marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c = L.markerClusterGroup(
+                {}
+            );
+            feature_group_1e4f70cf09a14f9c9b8ce9b511b9e04c.addLayer(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var marker_6d1aedc9eff84e2a8915d0f91bc236db = L.marker(
+                [-23.66549636111111, -46.69140525],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_4f8d6b06e2574c8b807116b7119c8d0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d1aedc9eff84e2a8915d0f91bc236db.setIcon(icon_4f8d6b06e2574c8b807116b7119c8d0b);
+        
+    
+        var popup_386bb865691e48d89657d4dade5e5684 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2fe144dac884c13b898c7b37607bcd2 = $(`<div id="html_a2fe144dac884c13b898c7b37607bcd2" style="width: 100.0%; height: 100.0%;">Anhanguera, Precisao 92.41%. Preco Medio aptos R$ 677250.0</div>`)[0];
+            popup_386bb865691e48d89657d4dade5e5684.setContent(html_a2fe144dac884c13b898c7b37607bcd2);
+        
+
+        marker_6d1aedc9eff84e2a8915d0f91bc236db.bindPopup(popup_386bb865691e48d89657d4dade5e5684)
+        ;
+
+        
+    
+    
+            marker_6d1aedc9eff84e2a8915d0f91bc236db.bindTooltip(
+                `<div>
+                     Anhanguera, Precisao 92.41%. Preco Medio aptos: R$ 677250.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bdbbec96a8734328b4ca2de142117c66 = L.marker(
+                [-23.55805058836271, -46.646846147166954],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_d53e7d6559f443c88e920e96a25986d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bdbbec96a8734328b4ca2de142117c66.setIcon(icon_d53e7d6559f443c88e920e96a25986d1);
+        
+    
+        var popup_df8388223a6a4843a0a81bd1ca4945f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bd6b528e80e4fb5882126a0177432b4 = $(`<div id="html_8bd6b528e80e4fb5882126a0177432b4" style="width: 100.0%; height: 100.0%;">Bela Vista, Precisao 88.41%. Preco Medio aptos R$ 620402.63</div>`)[0];
+            popup_df8388223a6a4843a0a81bd1ca4945f1.setContent(html_8bd6b528e80e4fb5882126a0177432b4);
+        
+
+        marker_bdbbec96a8734328b4ca2de142117c66.bindPopup(popup_df8388223a6a4843a0a81bd1ca4945f1)
+        ;
+
+        
+    
+    
+            marker_bdbbec96a8734328b4ca2de142117c66.bindTooltip(
+                `<div>
+                     Bela Vista, Precisao 88.41%. Preco Medio aptos: R$ 620402.63
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acd0c272d91f44909843777f8db16244 = L.marker(
+                [-23.58097783870968, -46.72447257692308],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_8293930226ac4478804c1a20f2b61f9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acd0c272d91f44909843777f8db16244.setIcon(icon_8293930226ac4478804c1a20f2b61f9c);
+        
+    
+        var popup_77735eadcb4c4863a275352860398b6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f7281754c7f4db09403ccd28e09260d = $(`<div id="html_5f7281754c7f4db09403ccd28e09260d" style="width: 100.0%; height: 100.0%;">Butantã, Precisao 88.99%. Preco Medio aptos R$ 591480.61</div>`)[0];
+            popup_77735eadcb4c4863a275352860398b6d.setContent(html_5f7281754c7f4db09403ccd28e09260d);
+        
+
+        marker_acd0c272d91f44909843777f8db16244.bindPopup(popup_77735eadcb4c4863a275352860398b6d)
+        ;
+
+        
+    
+    
+            marker_acd0c272d91f44909843777f8db16244.bindTooltip(
+                `<div>
+                     Butantã, Precisao 88.99%. Preco Medio aptos: R$ 591480.61
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c26ed5efa974469ea08ccadd7ea80949 = L.marker(
+                [-23.563081413580246, -46.6223172345679],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_9636d26723ec4fd0ae43269dee1d021d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c26ed5efa974469ea08ccadd7ea80949.setIcon(icon_9636d26723ec4fd0ae43269dee1d021d);
+        
+    
+        var popup_119c9e8b731844eaa5a66b48ed649f72 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77cc8395b36045a79b1d3e0a70fce791 = $(`<div id="html_77cc8395b36045a79b1d3e0a70fce791" style="width: 100.0%; height: 100.0%;">Cambuci, Precisao 91.07%. Preco Medio aptos R$ 376367.47</div>`)[0];
+            popup_119c9e8b731844eaa5a66b48ed649f72.setContent(html_77cc8395b36045a79b1d3e0a70fce791);
+        
+
+        marker_c26ed5efa974469ea08ccadd7ea80949.bindPopup(popup_119c9e8b731844eaa5a66b48ed649f72)
+        ;
+
+        
+    
+    
+            marker_c26ed5efa974469ea08ccadd7ea80949.bindTooltip(
+                `<div>
+                     Cambuci, Precisao 91.07%. Preco Medio aptos: R$ 376367.47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9823b6515a02489bbe7ad25b9af30c6f = L.marker(
+                [-23.6151674, -46.66872734489796],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_cbbc303a84ad472197860cc6442ba992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9823b6515a02489bbe7ad25b9af30c6f.setIcon(icon_cbbc303a84ad472197860cc6442ba992);
+        
+    
+        var popup_98ce60edf7fe4a4aa759db37730a6bf6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba84b4210e8443a2a344e8bd95d25772 = $(`<div id="html_ba84b4210e8443a2a344e8bd95d25772" style="width: 100.0%; height: 100.0%;">Campo Belo, Precisao 89.95%. Preco Medio aptos R$ 1422326.32</div>`)[0];
+            popup_98ce60edf7fe4a4aa759db37730a6bf6.setContent(html_ba84b4210e8443a2a344e8bd95d25772);
+        
+
+        marker_9823b6515a02489bbe7ad25b9af30c6f.bindPopup(popup_98ce60edf7fe4a4aa759db37730a6bf6)
+        ;
+
+        
+    
+    
+            marker_9823b6515a02489bbe7ad25b9af30c6f.bindTooltip(
+                `<div>
+                     Campo Belo, Precisao 89.95%. Preco Medio aptos: R$ 1422326.32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90f73b265f7346c295d5552aa2000cdd = L.marker(
+                [-23.675037797142856, -46.682419024285714],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_0e85d62b4dbc49a1a714910628fec3a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90f73b265f7346c295d5552aa2000cdd.setIcon(icon_0e85d62b4dbc49a1a714910628fec3a8);
+        
+    
+        var popup_9557af7e2a0d4af08512849765aed340 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afb5c488765246c39db4d9b336e50a43 = $(`<div id="html_afb5c488765246c39db4d9b336e50a43" style="width: 100.0%; height: 100.0%;">Campo Grande, Precisao 90.94%. Preco Medio aptos R$ 470675.41</div>`)[0];
+            popup_9557af7e2a0d4af08512849765aed340.setContent(html_afb5c488765246c39db4d9b336e50a43);
+        
+
+        marker_90f73b265f7346c295d5552aa2000cdd.bindPopup(popup_9557af7e2a0d4af08512849765aed340)
+        ;
+
+        
+    
+    
+            marker_90f73b265f7346c295d5552aa2000cdd.bindTooltip(
+                `<div>
+                     Campo Grande, Precisao 90.94%. Preco Medio aptos: R$ 470675.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_182309dc56ed4431a889504fb72b959d = L.marker(
+                [-23.636308063793106, -46.75467456034483],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_f69d9e26a98d4e24af5c96a8a90c6ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_182309dc56ed4431a889504fb72b959d.setIcon(icon_f69d9e26a98d4e24af5c96a8a90c6ae3);
+        
+    
+        var popup_74cacfed13354441b4214adf052bede5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_662b15bb71734a3597c41cb19600396f = $(`<div id="html_662b15bb71734a3597c41cb19600396f" style="width: 100.0%; height: 100.0%;">Campo Limpo, Precisao 91.52%. Preco Medio aptos R$ 263579.26</div>`)[0];
+            popup_74cacfed13354441b4214adf052bede5.setContent(html_662b15bb71734a3597c41cb19600396f);
+        
+
+        marker_182309dc56ed4431a889504fb72b959d.bindPopup(popup_74cacfed13354441b4214adf052bede5)
+        ;
+
+        
+    
+    
+            marker_182309dc56ed4431a889504fb72b959d.bindTooltip(
+                `<div>
+                     Campo Limpo, Precisao 91.52%. Preco Medio aptos: R$ 263579.26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c59f585824bf4929a40742ad0c5d6b07 = L.marker(
+                [-23.657848224390243, -46.759355402564104],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_5c3a4a6d44e34a0880d7a69cec34647d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c59f585824bf4929a40742ad0c5d6b07.setIcon(icon_5c3a4a6d44e34a0880d7a69cec34647d);
+        
+    
+        var popup_a54090f1cec844e7bfc025c3db096bef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff392baef02e4388b765b2db631c1357 = $(`<div id="html_ff392baef02e4388b765b2db631c1357" style="width: 100.0%; height: 100.0%;">Capão Redondo, Precisao 91.14%. Preco Medio aptos R$ 226540.69</div>`)[0];
+            popup_a54090f1cec844e7bfc025c3db096bef.setContent(html_ff392baef02e4388b765b2db631c1357);
+        
+
+        marker_c59f585824bf4929a40742ad0c5d6b07.bindPopup(popup_a54090f1cec844e7bfc025c3db096bef)
+        ;
+
+        
+    
+    
+            marker_c59f585824bf4929a40742ad0c5d6b07.bindTooltip(
+                `<div>
+                     Capão Redondo, Precisao 91.14%. Preco Medio aptos: R$ 226540.69
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3124e60b9eb24d7a9ced86e97e848ce7 = L.marker(
+                [-23.664497047435898, -46.66573096623377],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_a3ad551f0a2040e39ee63ccc0e82f222 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3124e60b9eb24d7a9ced86e97e848ce7.setIcon(icon_a3ad551f0a2040e39ee63ccc0e82f222);
+        
+    
+        var popup_f680d72a1c264838b6f8b2507f38a848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b880432859b411cb1436638c13bcb49 = $(`<div id="html_0b880432859b411cb1436638c13bcb49" style="width: 100.0%; height: 100.0%;">Cidade Ademar, Precisao 91.06%. Preco Medio aptos R$ 365521.9</div>`)[0];
+            popup_f680d72a1c264838b6f8b2507f38a848.setContent(html_0b880432859b411cb1436638c13bcb49);
+        
+
+        marker_3124e60b9eb24d7a9ced86e97e848ce7.bindPopup(popup_f680d72a1c264838b6f8b2507f38a848)
+        ;
+
+        
+    
+    
+            marker_3124e60b9eb24d7a9ced86e97e848ce7.bindTooltip(
+                `<div>
+                     Cidade Ademar, Precisao 91.06%. Preco Medio aptos: R$ 365521.9
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b324a103e3a4666ae9d1bf83037b0ad = L.marker(
+                [-23.68182187272727, -46.70116915918367],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_1027c2b2ce414113b26bbe132c9cd760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b324a103e3a4666ae9d1bf83037b0ad.setIcon(icon_1027c2b2ce414113b26bbe132c9cd760);
+        
+    
+        var popup_f5fceb5cba124ea4b13ee86a3fda656f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_810c1f65d713414ca9c8b772aa249642 = $(`<div id="html_810c1f65d713414ca9c8b772aa249642" style="width: 100.0%; height: 100.0%;">Cidade Dutra, Precisao 93.7%. Preco Medio aptos R$ 492227.91</div>`)[0];
+            popup_f5fceb5cba124ea4b13ee86a3fda656f.setContent(html_810c1f65d713414ca9c8b772aa249642);
+        
+
+        marker_7b324a103e3a4666ae9d1bf83037b0ad.bindPopup(popup_f5fceb5cba124ea4b13ee86a3fda656f)
+        ;
+
+        
+    
+    
+            marker_7b324a103e3a4666ae9d1bf83037b0ad.bindTooltip(
+                `<div>
+                     Cidade Dutra, Precisao 93.7%. Preco Medio aptos: R$ 492227.91
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bc4edafa7678435a81f90efdf445ffc9 = L.marker(
+                [-23.62374822350192, -46.61654823579616],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_f71a61bd89f44fe29c5adc6d87306765 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bc4edafa7678435a81f90efdf445ffc9.setIcon(icon_f71a61bd89f44fe29c5adc6d87306765);
+        
+    
+        var popup_9e789968d79841849b43f1cd1a5c68bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfe6d24ecd25468fb3f71e9741155f74 = $(`<div id="html_dfe6d24ecd25468fb3f71e9741155f74" style="width: 100.0%; height: 100.0%;">Cursino, Precisao 89.86%. Preco Medio aptos R$ 443534.1</div>`)[0];
+            popup_9e789968d79841849b43f1cd1a5c68bc.setContent(html_dfe6d24ecd25468fb3f71e9741155f74);
+        
+
+        marker_bc4edafa7678435a81f90efdf445ffc9.bindPopup(popup_9e789968d79841849b43f1cd1a5c68bc)
+        ;
+
+        
+    
+    
+            marker_bc4edafa7678435a81f90efdf445ffc9.bindTooltip(
+                `<div>
+                     Cursino, Precisao 89.86%. Preco Medio aptos: R$ 443534.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ce3493ce72439aad9a830d418ae427 = L.marker(
+                [-23.7799713, -46.6737655],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_e14aaccd9df044a6acd226da024b865f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4ce3493ce72439aad9a830d418ae427.setIcon(icon_e14aaccd9df044a6acd226da024b865f);
+        
+    
+        var popup_dd2b0b6406194f1aab78d15800b149a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce6f4f7986f74c67bb187b3d23656573 = $(`<div id="html_ce6f4f7986f74c67bb187b3d23656573" style="width: 100.0%; height: 100.0%;">Grajaú, Precisao 93.56%. Preco Medio aptos R$ 224114.29</div>`)[0];
+            popup_dd2b0b6406194f1aab78d15800b149a8.setContent(html_ce6f4f7986f74c67bb187b3d23656573);
+        
+
+        marker_c4ce3493ce72439aad9a830d418ae427.bindPopup(popup_dd2b0b6406194f1aab78d15800b149a8)
+        ;
+
+        
+    
+    
+            marker_c4ce3493ce72439aad9a830d418ae427.bindTooltip(
+                `<div>
+                     Grajaú, Precisao 93.56%. Preco Medio aptos: R$ 224114.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8eef72212ef4e13b47e9e8e772bd2ac = L.marker(
+                [-23.5855962, -46.6819833],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_6e16479999cf4e1b93fd4cb8ea91ad8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8eef72212ef4e13b47e9e8e772bd2ac.setIcon(icon_6e16479999cf4e1b93fd4cb8ea91ad8c);
+        
+    
+        var popup_b44c49b3d0734b7ebc1212f2b01ca000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7424424363dd4783bc35d36251f8c50c = $(`<div id="html_7424424363dd4783bc35d36251f8c50c" style="width: 100.0%; height: 100.0%;">Iguatemi, Precisao 88.71%. Preco Medio aptos R$ 3800292.79</div>`)[0];
+            popup_b44c49b3d0734b7ebc1212f2b01ca000.setContent(html_7424424363dd4783bc35d36251f8c50c);
+        
+
+        marker_b8eef72212ef4e13b47e9e8e772bd2ac.bindPopup(popup_b44c49b3d0734b7ebc1212f2b01ca000)
+        ;
+
+        
+    
+    
+            marker_b8eef72212ef4e13b47e9e8e772bd2ac.bindTooltip(
+                `<div>
+                     Iguatemi, Precisao 88.71%. Preco Medio aptos: R$ 3800292.79
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba125b0553c04d23821c24b41254cb36 = L.marker(
+                [-23.58703899827586, -46.60606718275862],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_08ba0dff823444c7a4871cbe8bbef04c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba125b0553c04d23821c24b41254cb36.setIcon(icon_08ba0dff823444c7a4871cbe8bbef04c);
+        
+    
+        var popup_edd964a22787400793cc240e6d2f7e26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5da54519b0b452eb8d7f7f8e3c73ca7 = $(`<div id="html_e5da54519b0b452eb8d7f7f8e3c73ca7" style="width: 100.0%; height: 100.0%;">Ipiranga, Precisao 90.36%. Preco Medio aptos R$ 768147.44</div>`)[0];
+            popup_edd964a22787400793cc240e6d2f7e26.setContent(html_e5da54519b0b452eb8d7f7f8e3c73ca7);
+        
+
+        marker_ba125b0553c04d23821c24b41254cb36.bindPopup(popup_edd964a22787400793cc240e6d2f7e26)
+        ;
+
+        
+    
+    
+            marker_ba125b0553c04d23821c24b41254cb36.bindTooltip(
+                `<div>
+                     Ipiranga, Precisao 90.36%. Preco Medio aptos: R$ 768147.44
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aeb0d98d5ffe48d7bb2cbb55f4cfffbc = L.marker(
+                [-23.602027833333334, -46.68148002208333],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_fb81380a3d664e97a11917f443cc35b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aeb0d98d5ffe48d7bb2cbb55f4cfffbc.setIcon(icon_fb81380a3d664e97a11917f443cc35b5);
+        
+    
+        var popup_4398f17806474a33b6a0ea252ff05513 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7acc41ba859c4be8b9e0e0582de35c8f = $(`<div id="html_7acc41ba859c4be8b9e0e0582de35c8f" style="width: 100.0%; height: 100.0%;">Itaim Bibi, Precisao 87.94%. Preco Medio aptos R$ 1547529.6</div>`)[0];
+            popup_4398f17806474a33b6a0ea252ff05513.setContent(html_7acc41ba859c4be8b9e0e0582de35c8f);
+        
+
+        marker_aeb0d98d5ffe48d7bb2cbb55f4cfffbc.bindPopup(popup_4398f17806474a33b6a0ea252ff05513)
+        ;
+
+        
+    
+    
+            marker_aeb0d98d5ffe48d7bb2cbb55f4cfffbc.bindTooltip(
+                `<div>
+                     Itaim Bibi, Precisao 87.94%. Preco Medio aptos: R$ 1547529.6
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03a3b69b170545d795e478dce323096b = L.marker(
+                [-23.64279823880597, -46.645194252941174],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_21cbb6c11f984c8997ea26625ee59d46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_03a3b69b170545d795e478dce323096b.setIcon(icon_21cbb6c11f984c8997ea26625ee59d46);
+        
+    
+        var popup_3feee51a452b44d39a932df6027a01ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_247a9d2099484adfafb74de0fe24cc41 = $(`<div id="html_247a9d2099484adfafb74de0fe24cc41" style="width: 100.0%; height: 100.0%;">Jabaquara, Precisao 90.29%. Preco Medio aptos R$ 441103.82</div>`)[0];
+            popup_3feee51a452b44d39a932df6027a01ec.setContent(html_247a9d2099484adfafb74de0fe24cc41);
+        
+
+        marker_03a3b69b170545d795e478dce323096b.bindPopup(popup_3feee51a452b44d39a932df6027a01ec)
+        ;
+
+        
+    
+    
+            marker_03a3b69b170545d795e478dce323096b.bindTooltip(
+                `<div>
+                     Jabaquara, Precisao 90.29%. Preco Medio aptos: R$ 441103.82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73f396607dd54a05a67e76a2045d55b2 = L.marker(
+                [-23.568660208450705, -46.65857425915493],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_ab9520df5abd480ab6c451e49c6f3de4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73f396607dd54a05a67e76a2045d55b2.setIcon(icon_ab9520df5abd480ab6c451e49c6f3de4);
+        
+    
+        var popup_64e500836ef941e0bb162657b3605241 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04cdb038421c43d8867021ba4a161eb3 = $(`<div id="html_04cdb038421c43d8867021ba4a161eb3" style="width: 100.0%; height: 100.0%;">Jardim Paulista, Precisao 88.23%. Preco Medio aptos R$ 1872150.68</div>`)[0];
+            popup_64e500836ef941e0bb162657b3605241.setContent(html_04cdb038421c43d8867021ba4a161eb3);
+        
+
+        marker_73f396607dd54a05a67e76a2045d55b2.bindPopup(popup_64e500836ef941e0bb162657b3605241)
+        ;
+
+        
+    
+    
+            marker_73f396607dd54a05a67e76a2045d55b2.bindTooltip(
+                `<div>
+                     Jardim Paulista, Precisao 88.23%. Preco Medio aptos: R$ 1872150.68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe3afa03b4fe45688de8287400bf6356 = L.marker(
+                [-23.655639205128207, -46.743243897435896],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_112d14605a564ff6952f393e7d252ed0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe3afa03b4fe45688de8287400bf6356.setIcon(icon_112d14605a564ff6952f393e7d252ed0);
+        
+    
+        var popup_fff7b431539540f38ca71d2934c18769 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e9f690b027b4894b875d90932d05eaa = $(`<div id="html_4e9f690b027b4894b875d90932d05eaa" style="width: 100.0%; height: 100.0%;">Jardim São Luís, Precisao 92.33%. Preco Medio aptos R$ 265666.67</div>`)[0];
+            popup_fff7b431539540f38ca71d2934c18769.setContent(html_4e9f690b027b4894b875d90932d05eaa);
+        
+
+        marker_fe3afa03b4fe45688de8287400bf6356.bindPopup(popup_fff7b431539540f38ca71d2934c18769)
+        ;
+
+        
+    
+    
+            marker_fe3afa03b4fe45688de8287400bf6356.bindTooltip(
+                `<div>
+                     Jardim São Luís, Precisao 92.33%. Preco Medio aptos: R$ 265666.67
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20b70d913377400aa12041ed5ec9a711 = L.marker(
+                [-23.55869330460971, -46.63174255120485],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_a5d008bcd5f64ebea0f662788dd0d1f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20b70d913377400aa12041ed5ec9a711.setIcon(icon_a5d008bcd5f64ebea0f662788dd0d1f8);
+        
+    
+        var popup_d6cfff8af6bc488ca8e0be2d0d92398b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f7ca9032b4244bb84e0f3ad05fa31d3 = $(`<div id="html_4f7ca9032b4244bb84e0f3ad05fa31d3" style="width: 100.0%; height: 100.0%;">Liberdade, Precisao 88.11%. Preco Medio aptos R$ 405106.41</div>`)[0];
+            popup_d6cfff8af6bc488ca8e0be2d0d92398b.setContent(html_4f7ca9032b4244bb84e0f3ad05fa31d3);
+        
+
+        marker_20b70d913377400aa12041ed5ec9a711.bindPopup(popup_d6cfff8af6bc488ca8e0be2d0d92398b)
+        ;
+
+        
+    
+    
+            marker_20b70d913377400aa12041ed5ec9a711.bindTooltip(
+                `<div>
+                     Liberdade, Precisao 88.11%. Preco Medio aptos: R$ 405106.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee1d4b285379489ebb60409e72ec0f09 = L.marker(
+                [-23.6047633055459, -46.66425716489918],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_88c3dccb9f0f48ceb3c49040e684b887 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ee1d4b285379489ebb60409e72ec0f09.setIcon(icon_88c3dccb9f0f48ceb3c49040e684b887);
+        
+    
+        var popup_1f40903065184775a7ea694555de1a56 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_344f8fd7441d4677b4122c4aaf2afe8c = $(`<div id="html_344f8fd7441d4677b4122c4aaf2afe8c" style="width: 100.0%; height: 100.0%;">Moema, Precisao 89.29%. Preco Medio aptos R$ 1635720.62</div>`)[0];
+            popup_1f40903065184775a7ea694555de1a56.setContent(html_344f8fd7441d4677b4122c4aaf2afe8c);
+        
+
+        marker_ee1d4b285379489ebb60409e72ec0f09.bindPopup(popup_1f40903065184775a7ea694555de1a56)
+        ;
+
+        
+    
+    
+            marker_ee1d4b285379489ebb60409e72ec0f09.bindTooltip(
+                `<div>
+                     Moema, Precisao 89.29%. Preco Medio aptos: R$ 1635720.62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66df1821c718476dba346f138ed458b2 = L.marker(
+                [-23.558908525443396, -46.59765100880377],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_8866b77e5f2643d0822fde9cb9aaddd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_66df1821c718476dba346f138ed458b2.setIcon(icon_8866b77e5f2643d0822fde9cb9aaddd5);
+        
+    
+        var popup_e9bdfb0a69714664948cf36422904ac5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc8c76bdd3f64c57947ba540c44d14f2 = $(`<div id="html_bc8c76bdd3f64c57947ba540c44d14f2" style="width: 100.0%; height: 100.0%;">Mooca, Precisao 90.46%. Preco Medio aptos R$ 649633.94</div>`)[0];
+            popup_e9bdfb0a69714664948cf36422904ac5.setContent(html_bc8c76bdd3f64c57947ba540c44d14f2);
+        
+
+        marker_66df1821c718476dba346f138ed458b2.bindPopup(popup_e9bdfb0a69714664948cf36422904ac5)
+        ;
+
+        
+    
+    
+            marker_66df1821c718476dba346f138ed458b2.bindTooltip(
+                `<div>
+                     Mooca, Precisao 90.46%. Preco Medio aptos: R$ 649633.94
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5fe62ff9d0044c097e73fc969b4d250 = L.marker(
+                [-23.61742423529412, -46.738714382352946],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_7f99b40a948442bea5c9a6d084bdc0dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5fe62ff9d0044c097e73fc969b4d250.setIcon(icon_7f99b40a948442bea5c9a6d084bdc0dc);
+        
+    
+        var popup_92ac457a424f415cb64663a809b3e29f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_525addef8d4e4ce8807618c94bd18501 = $(`<div id="html_525addef8d4e4ce8807618c94bd18501" style="width: 100.0%; height: 100.0%;">Morumbi, Precisao 87.71%. Preco Medio aptos R$ 523441.28</div>`)[0];
+            popup_92ac457a424f415cb64663a809b3e29f.setContent(html_525addef8d4e4ce8807618c94bd18501);
+        
+
+        marker_d5fe62ff9d0044c097e73fc969b4d250.bindPopup(popup_92ac457a424f415cb64663a809b3e29f)
+        ;
+
+        
+    
+    
+            marker_d5fe62ff9d0044c097e73fc969b4d250.bindTooltip(
+                `<div>
+                     Morumbi, Precisao 87.71%. Preco Medio aptos: R$ 523441.28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4539dfee599451d9907e5b5ffc96ef5 = L.marker(
+                [-23.690656529411765, -46.674043705882355],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_26977864fde442e886e75c07c9e9161d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4539dfee599451d9907e5b5ffc96ef5.setIcon(icon_26977864fde442e886e75c07c9e9161d);
+        
+    
+        var popup_720bb2505cf74f68b903e369063fdbe4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b9cd02c1b254994b8db716510abfc19 = $(`<div id="html_5b9cd02c1b254994b8db716510abfc19" style="width: 100.0%; height: 100.0%;">Pedreira, Precisao 92.25%. Preco Medio aptos R$ 269376.47</div>`)[0];
+            popup_720bb2505cf74f68b903e369063fdbe4.setContent(html_5b9cd02c1b254994b8db716510abfc19);
+        
+
+        marker_b4539dfee599451d9907e5b5ffc96ef5.bindPopup(popup_720bb2505cf74f68b903e369063fdbe4)
+        ;
+
+        
+    
+    
+            marker_b4539dfee599451d9907e5b5ffc96ef5.bindTooltip(
+                `<div>
+                     Pedreira, Precisao 92.25%. Preco Medio aptos: R$ 269376.47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbaffe63fd784640a3b026b21aa4066b = L.marker(
+                [-23.556861719862876, -46.68582771130151],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_b830ec1092ed44ddaf11c569e9a04f42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbaffe63fd784640a3b026b21aa4066b.setIcon(icon_b830ec1092ed44ddaf11c569e9a04f42);
+        
+    
+        var popup_6ca70b3ea24c451dafedb3ba9348d2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf24dbc7e91c44d0b2a48b787524465b = $(`<div id="html_cf24dbc7e91c44d0b2a48b787524465b" style="width: 100.0%; height: 100.0%;">Pinheiros, Precisao 89.02%. Preco Medio aptos R$ 1048052.48</div>`)[0];
+            popup_6ca70b3ea24c451dafedb3ba9348d2b7.setContent(html_cf24dbc7e91c44d0b2a48b787524465b);
+        
+
+        marker_dbaffe63fd784640a3b026b21aa4066b.bindPopup(popup_6ca70b3ea24c451dafedb3ba9348d2b7)
+        ;
+
+        
+    
+    
+            marker_dbaffe63fd784640a3b026b21aa4066b.bindTooltip(
+                `<div>
+                     Pinheiros, Precisao 89.02%. Preco Medio aptos: R$ 1048052.48
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c72eab3efc0c42d6a9b75ef67f54135d = L.marker(
+                [-23.589588764705884, -46.76883171428572],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_aa0765e83ce7430a966805f06ee23e40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c72eab3efc0c42d6a9b75ef67f54135d.setIcon(icon_aa0765e83ce7430a966805f06ee23e40);
+        
+    
+        var popup_22a2f8bed1b043ff9205912c6fb76526 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01f6e4af747647faada3c4f2401bd95c = $(`<div id="html_01f6e4af747647faada3c4f2401bd95c" style="width: 100.0%; height: 100.0%;">Raposo Tavares, Precisao 89.64%. Preco Medio aptos R$ 359952.86</div>`)[0];
+            popup_22a2f8bed1b043ff9205912c6fb76526.setContent(html_01f6e4af747647faada3c4f2401bd95c);
+        
+
+        marker_c72eab3efc0c42d6a9b75ef67f54135d.bindPopup(popup_22a2f8bed1b043ff9205912c6fb76526)
+        ;
+
+        
+    
+    
+            marker_c72eab3efc0c42d6a9b75ef67f54135d.bindTooltip(
+                `<div>
+                     Raposo Tavares, Precisao 89.64%. Preco Medio aptos: R$ 359952.86
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dbfc731a3f8c47e38f1e08164543e60f = L.marker(
+                [-23.56569125, -46.75213928125],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_ccaca5fb021f471a8887b496aa3e2e46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dbfc731a3f8c47e38f1e08164543e60f.setIcon(icon_ccaca5fb021f471a8887b496aa3e2e46);
+        
+    
+        var popup_cdfa163610df4c53964cc22ffb655ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60058594e8b243678e385e0a46228e46 = $(`<div id="html_60058594e8b243678e385e0a46228e46" style="width: 100.0%; height: 100.0%;">Rio Pequeno, Precisao 91.37%. Preco Medio aptos R$ 774645.13</div>`)[0];
+            popup_cdfa163610df4c53964cc22ffb655ca4.setContent(html_60058594e8b243678e385e0a46228e46);
+        
+
+        marker_dbfc731a3f8c47e38f1e08164543e60f.bindPopup(popup_cdfa163610df4c53964cc22ffb655ca4)
+        ;
+
+        
+    
+    
+            marker_dbfc731a3f8c47e38f1e08164543e60f.bindTooltip(
+                `<div>
+                     Rio Pequeno, Precisao 91.37%. Preco Medio aptos: R$ 774645.13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d33bf3477f4541ee97386128e0e16f84 = L.marker(
+                [-23.618722575, -46.5984988],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_24a6b69ecd7a4b329a2e415ade645a06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d33bf3477f4541ee97386128e0e16f84.setIcon(icon_24a6b69ecd7a4b329a2e415ade645a06);
+        
+    
+        var popup_e89f2ddb1fbf46a196d751fbb7a750f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eec73dbd73dc409cb35b5a9e45aa1e98 = $(`<div id="html_eec73dbd73dc409cb35b5a9e45aa1e98" style="width: 100.0%; height: 100.0%;">Sacomã, Precisao 91.86%. Preco Medio aptos R$ 358129.95</div>`)[0];
+            popup_e89f2ddb1fbf46a196d751fbb7a750f1.setContent(html_eec73dbd73dc409cb35b5a9e45aa1e98);
+        
+
+        marker_d33bf3477f4541ee97386128e0e16f84.bindPopup(popup_e89f2ddb1fbf46a196d751fbb7a750f1)
+        ;
+
+        
+    
+    
+            marker_d33bf3477f4541ee97386128e0e16f84.bindTooltip(
+                `<div>
+                     Sacomã, Precisao 91.86%. Preco Medio aptos: R$ 358129.95
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f44b50dd3f864f82937317f9d1a8eb1e = L.marker(
+                [-23.64470990625, -46.7090874375],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_d0d07160f9a343839fa0cc2d3a25fc82 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f44b50dd3f864f82937317f9d1a8eb1e.setIcon(icon_d0d07160f9a343839fa0cc2d3a25fc82);
+        
+    
+        var popup_e04f9b8e10284a69a7ff35734b776848 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ff901ef2c23040f7b033dfc64c21ee10 = $(`<div id="html_ff901ef2c23040f7b033dfc64c21ee10" style="width: 100.0%; height: 100.0%;">Santo Amaro, Precisao 91.32%. Preco Medio aptos R$ 822548.62</div>`)[0];
+            popup_e04f9b8e10284a69a7ff35734b776848.setContent(html_ff901ef2c23040f7b033dfc64c21ee10);
+        
+
+        marker_f44b50dd3f864f82937317f9d1a8eb1e.bindPopup(popup_e04f9b8e10284a69a7ff35734b776848)
+        ;
+
+        
+    
+    
+            marker_f44b50dd3f864f82937317f9d1a8eb1e.bindTooltip(
+                `<div>
+                     Santo Amaro, Precisao 91.32%. Preco Medio aptos: R$ 822548.62
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_de6ded49f37e4adda8712774d71c417e = L.marker(
+                [-23.621192951219513, -46.62721543902439],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_46d23becfdf24e5e8816dc1178f9e6cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_de6ded49f37e4adda8712774d71c417e.setIcon(icon_46d23becfdf24e5e8816dc1178f9e6cc);
+        
+    
+        var popup_7ef01dc85a0442f2b42a02139977c964 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56764dbce73442b395540789cb0bd543 = $(`<div id="html_56764dbce73442b395540789cb0bd543" style="width: 100.0%; height: 100.0%;">Saúde, Precisao 90.6%. Preco Medio aptos R$ 568056.32</div>`)[0];
+            popup_7ef01dc85a0442f2b42a02139977c964.setContent(html_56764dbce73442b395540789cb0bd543);
+        
+
+        marker_de6ded49f37e4adda8712774d71c417e.bindPopup(popup_7ef01dc85a0442f2b42a02139977c964)
+        ;
+
+        
+    
+    
+            marker_de6ded49f37e4adda8712774d71c417e.bindTooltip(
+                `<div>
+                     Saúde, Precisao 90.6%. Preco Medio aptos: R$ 568056.32
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b99f6d0ea6f140c5a1eef81053a57c25 = L.marker(
+                [-23.674073, -46.70558621212121],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_089db974b57a4203a0b4f173a47c58ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b99f6d0ea6f140c5a1eef81053a57c25.setIcon(icon_089db974b57a4203a0b4f173a47c58ee);
+        
+    
+        var popup_5a718c89051e416aa2bc07d0dbfe210a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d91240bf592442bb86eab33ec57b1e9f = $(`<div id="html_d91240bf592442bb86eab33ec57b1e9f" style="width: 100.0%; height: 100.0%;">Socorro, Precisao 86.36%. Preco Medio aptos R$ 335557.22</div>`)[0];
+            popup_5a718c89051e416aa2bc07d0dbfe210a.setContent(html_d91240bf592442bb86eab33ec57b1e9f);
+        
+
+        marker_b99f6d0ea6f140c5a1eef81053a57c25.bindPopup(popup_5a718c89051e416aa2bc07d0dbfe210a)
+        ;
+
+        
+    
+    
+            marker_b99f6d0ea6f140c5a1eef81053a57c25.bindTooltip(
+                `<div>
+                     Socorro, Precisao 86.36%. Preco Medio aptos: R$ 335557.22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93348fa58d05469c8ec2f1eca52c026f = L.marker(
+                [-23.55675520029041, -46.62776407900556],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_7f67388ac8ee41b1b28d82b9656d307b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_93348fa58d05469c8ec2f1eca52c026f.setIcon(icon_7f67388ac8ee41b1b28d82b9656d307b);
+        
+    
+        var popup_7643b1c6ed214c9ca0f5e6d904ae235f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca255b6dfd604f4dab86789f2c1cd1af = $(`<div id="html_ca255b6dfd604f4dab86789f2c1cd1af" style="width: 100.0%; height: 100.0%;">Sé, Precisao 88.06%. Preco Medio aptos R$ 447443.45</div>`)[0];
+            popup_7643b1c6ed214c9ca0f5e6d904ae235f.setContent(html_ca255b6dfd604f4dab86789f2c1cd1af);
+        
+
+        marker_93348fa58d05469c8ec2f1eca52c026f.bindPopup(popup_7643b1c6ed214c9ca0f5e6d904ae235f)
+        ;
+
+        
+    
+    
+            marker_93348fa58d05469c8ec2f1eca52c026f.bindTooltip(
+                `<div>
+                     Sé, Precisao 88.06%. Preco Medio aptos: R$ 447443.45
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bd481022f2248efa759e0bea113fca6 = L.marker(
+                [-23.630275609756097, -46.740284951219515],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_c5e9ac925dad4d18bd2c7d44c6748da3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3bd481022f2248efa759e0bea113fca6.setIcon(icon_c5e9ac925dad4d18bd2c7d44c6748da3);
+        
+    
+        var popup_2ebefe62d4f14ec19244cc0470a0406b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ce4b37e5ec44752b7f6344786de39eb = $(`<div id="html_7ce4b37e5ec44752b7f6344786de39eb" style="width: 100.0%; height: 100.0%;">Vila Andrade, Precisao 93.5%. Preco Medio aptos R$ 465095.0</div>`)[0];
+            popup_2ebefe62d4f14ec19244cc0470a0406b.setContent(html_7ce4b37e5ec44752b7f6344786de39eb);
+        
+
+        marker_3bd481022f2248efa759e0bea113fca6.bindPopup(popup_2ebefe62d4f14ec19244cc0470a0406b)
+        ;
+
+        
+    
+    
+            marker_3bd481022f2248efa759e0bea113fca6.bindTooltip(
+                `<div>
+                     Vila Andrade, Precisao 93.5%. Preco Medio aptos: R$ 465095.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39a4e16621b344e99de44f8f45a2d28a = L.marker(
+                [-23.588441813953487, -46.63596313953488],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_bace8a42c8484b5f8ffea65935e457d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39a4e16621b344e99de44f8f45a2d28a.setIcon(icon_bace8a42c8484b5f8ffea65935e457d7);
+        
+    
+        var popup_90030ebf6fea49f2aef030bad951ad1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b87edb70a3e430e967e058b42751c73 = $(`<div id="html_0b87edb70a3e430e967e058b42751c73" style="width: 100.0%; height: 100.0%;">Vila Mariana, Precisao 91.52%. Preco Medio aptos R$ 1144305.35</div>`)[0];
+            popup_90030ebf6fea49f2aef030bad951ad1a.setContent(html_0b87edb70a3e430e967e058b42751c73);
+        
+
+        marker_39a4e16621b344e99de44f8f45a2d28a.bindPopup(popup_90030ebf6fea49f2aef030bad951ad1a)
+        ;
+
+        
+    
+    
+            marker_39a4e16621b344e99de44f8f45a2d28a.bindTooltip(
+                `<div>
+                     Vila Mariana, Precisao 91.52%. Preco Medio aptos: R$ 1144305.35
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28e8b62bd0454bcbb3a77e6eac175cc8 = L.marker(
+                [-23.59608516666667, -46.738088633333334],
+                {}
+            ).addTo(marker_cluster_b8e7a2935d5a4d14983ccea9e1f77c7c);
+        
+    
+            var icon_a61b081da01a44689a768e4dcd531d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28e8b62bd0454bcbb3a77e6eac175cc8.setIcon(icon_a61b081da01a44689a768e4dcd531d68);
+        
+    
+        var popup_f3937f2187804fb8a9ea6e24883bb51f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42e1901a74f143e7a74948e53358c970 = $(`<div id="html_42e1901a74f143e7a74948e53358c970" style="width: 100.0%; height: 100.0%;">Vila Sônia, Precisao 90.82%. Preco Medio aptos R$ 536491.0</div>`)[0];
+            popup_f3937f2187804fb8a9ea6e24883bb51f.setContent(html_42e1901a74f143e7a74948e53358c970);
+        
+
+        marker_28e8b62bd0454bcbb3a77e6eac175cc8.bindPopup(popup_f3937f2187804fb8a9ea6e24883bb51f)
+        ;
+
+        
+    
+    
+            marker_28e8b62bd0454bcbb3a77e6eac175cc8.bindTooltip(
+                `<div>
+                     Vila Sônia, Precisao 90.82%. Preco Medio aptos: R$ 536491.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_613f55d393ac4ff6980f03558ef4eb9d = L.featureGroup(
+                {}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+    
+            var marker_cluster_44141f93a33f4f96b71faa42e066ea32 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_613f55d393ac4ff6980f03558ef4eb9d.addLayer(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var marker_002caffb8b0748baa857f88428dbee64 = L.marker(
+                [-23.557347684057973, -46.52390194444444],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_f82dedc580274b2d8614122b54e59836 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_002caffb8b0748baa857f88428dbee64.setIcon(icon_f82dedc580274b2d8614122b54e59836);
+        
+    
+        var popup_5425272e72ff4957b7861ccbebc1ebfb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64e357694cf549af8358d6be6aba3d41 = $(`<div id="html_64e357694cf549af8358d6be6aba3d41" style="width: 100.0%; height: 100.0%;">Aricanduva, Precisao 90.09%. Preco Medio aptos R$ 298212.41</div>`)[0];
+            popup_5425272e72ff4957b7861ccbebc1ebfb.setContent(html_64e357694cf549af8358d6be6aba3d41);
+        
+
+        marker_002caffb8b0748baa857f88428dbee64.bindPopup(popup_5425272e72ff4957b7861ccbebc1ebfb)
+        ;
+
+        
+    
+    
+            marker_002caffb8b0748baa857f88428dbee64.bindTooltip(
+                `<div>
+                     Aricanduva, Precisao 90.09%. Preco Medio aptos: R$ 298212.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf877b14bb940ebaf3931fd9c9fda41 = L.marker(
+                [-23.54418279347826, -46.4844492],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_99380a9abc3343c2aeed5425310a5d1f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_caf877b14bb940ebaf3931fd9c9fda41.setIcon(icon_99380a9abc3343c2aeed5425310a5d1f);
+        
+    
+        var popup_b698683b7c7a4fbba20e55ad79df58ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7102815f2bf4e8dae8220831f404b3e = $(`<div id="html_d7102815f2bf4e8dae8220831f404b3e" style="width: 100.0%; height: 100.0%;">Artur Alvim, Precisao 92.99%. Preco Medio aptos R$ 189925.57</div>`)[0];
+            popup_b698683b7c7a4fbba20e55ad79df58ae.setContent(html_d7102815f2bf4e8dae8220831f404b3e);
+        
+
+        marker_caf877b14bb940ebaf3931fd9c9fda41.bindPopup(popup_b698683b7c7a4fbba20e55ad79df58ae)
+        ;
+
+        
+    
+    
+            marker_caf877b14bb940ebaf3931fd9c9fda41.bindTooltip(
+                `<div>
+                     Artur Alvim, Precisao 92.99%. Preco Medio aptos: R$ 189925.57
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1ca6a72632e46c5941b9aed6803a293 = L.marker(
+                [-23.507273317142857, -46.52762515714286],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_21a0700cc5c44983ba248d7b3a967d8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d1ca6a72632e46c5941b9aed6803a293.setIcon(icon_21a0700cc5c44983ba248d7b3a967d8d);
+        
+    
+        var popup_da66faf61cde4624bda95f7b2998b1b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_838f33d922264a0a931d0e900b00de2b = $(`<div id="html_838f33d922264a0a931d0e900b00de2b" style="width: 100.0%; height: 100.0%;">Cangaíba, Precisao 92.73%. Preco Medio aptos R$ 267167.57</div>`)[0];
+            popup_da66faf61cde4624bda95f7b2998b1b3.setContent(html_838f33d922264a0a931d0e900b00de2b);
+        
+
+        marker_d1ca6a72632e46c5941b9aed6803a293.bindPopup(popup_da66faf61cde4624bda95f7b2998b1b3)
+        ;
+
+        
+    
+    
+            marker_d1ca6a72632e46c5941b9aed6803a293.bindTooltip(
+                `<div>
+                     Cangaíba, Precisao 92.73%. Preco Medio aptos: R$ 267167.57
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fc2dfdb931646d1b2ad33bc0f37d405 = L.marker(
+                [-23.563305058457143, -46.48343970825926],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_50766f23ccc342559014f04579dc3578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8fc2dfdb931646d1b2ad33bc0f37d405.setIcon(icon_50766f23ccc342559014f04579dc3578);
+        
+    
+        var popup_f519b6806777468bb694cb5309c7f0be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3d16fe703d34ee0b21c354fab773af1 = $(`<div id="html_c3d16fe703d34ee0b21c354fab773af1" style="width: 100.0%; height: 100.0%;">Cidade Líder, Precisao 91.46%. Preco Medio aptos R$ 221690.28</div>`)[0];
+            popup_f519b6806777468bb694cb5309c7f0be.setContent(html_c3d16fe703d34ee0b21c354fab773af1);
+        
+
+        marker_8fc2dfdb931646d1b2ad33bc0f37d405.bindPopup(popup_f519b6806777468bb694cb5309c7f0be)
+        ;
+
+        
+    
+    
+            marker_8fc2dfdb931646d1b2ad33bc0f37d405.bindTooltip(
+                `<div>
+                     Cidade Líder, Precisao 91.46%. Preco Medio aptos: R$ 221690.28
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60a6a7959e39497a8d4dd55ffdfba9ac = L.marker(
+                [-23.5824973, -46.4092065],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_8dd72d77ef0449ffa5e0ffb17a6d9171 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60a6a7959e39497a8d4dd55ffdfba9ac.setIcon(icon_8dd72d77ef0449ffa5e0ffb17a6d9171);
+        
+    
+        var popup_5a83563c19024152890bc54b0b56b30a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f65a37a3f6064a13a533b20dae80822d = $(`<div id="html_f65a37a3f6064a13a533b20dae80822d" style="width: 100.0%; height: 100.0%;">Cidade Tiradentes, Precisao 83.45%. Preco Medio aptos R$ 112885.41</div>`)[0];
+            popup_5a83563c19024152890bc54b0b56b30a.setContent(html_f65a37a3f6064a13a533b20dae80822d);
+        
+
+        marker_60a6a7959e39497a8d4dd55ffdfba9ac.bindPopup(popup_5a83563c19024152890bc54b0b56b30a)
+        ;
+
+        
+    
+    
+            marker_60a6a7959e39497a8d4dd55ffdfba9ac.bindTooltip(
+                `<div>
+                     Cidade Tiradentes, Precisao 83.45%. Preco Medio aptos: R$ 112885.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3756802b85834c0b8be0e8abe177dbd1 = L.marker(
+                [-23.495984776388887, -46.485803764150944],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_1eb419f95c4542289cf4c1a1a5323eb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3756802b85834c0b8be0e8abe177dbd1.setIcon(icon_1eb419f95c4542289cf4c1a1a5323eb9);
+        
+    
+        var popup_c40d0855ee704b49b6abc675954aa812 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_020772e958fb464a91722bff1c5e98bf = $(`<div id="html_020772e958fb464a91722bff1c5e98bf" style="width: 100.0%; height: 100.0%;">Ermelino Matarazzo, Precisao 92.35%. Preco Medio aptos R$ 248652.17</div>`)[0];
+            popup_c40d0855ee704b49b6abc675954aa812.setContent(html_020772e958fb464a91722bff1c5e98bf);
+        
+
+        marker_3756802b85834c0b8be0e8abe177dbd1.bindPopup(popup_c40d0855ee704b49b6abc675954aa812)
+        ;
+
+        
+    
+    
+            marker_3756802b85834c0b8be0e8abe177dbd1.bindTooltip(
+                `<div>
+                     Ermelino Matarazzo, Precisao 92.35%. Preco Medio aptos: R$ 248652.17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a7d1bfc399745f98f22404e054bdb01 = L.marker(
+                [-23.5360799, -46.4555099],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_6851168544a44b3581a8a01852e78e26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a7d1bfc399745f98f22404e054bdb01.setIcon(icon_6851168544a44b3581a8a01852e78e26);
+        
+    
+        var popup_d748b26f921846f2923b6a3e1ddadec9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a395b6ce80bc4cf8b82d7e67f54f9d6a = $(`<div id="html_a395b6ce80bc4cf8b82d7e67f54f9d6a" style="width: 100.0%; height: 100.0%;">Itaquera, Precisao 92.67%. Preco Medio aptos R$ 203513.65</div>`)[0];
+            popup_d748b26f921846f2923b6a3e1ddadec9.setContent(html_a395b6ce80bc4cf8b82d7e67f54f9d6a);
+        
+
+        marker_7a7d1bfc399745f98f22404e054bdb01.bindPopup(popup_d748b26f921846f2923b6a3e1ddadec9)
+        ;
+
+        
+    
+    
+            marker_7a7d1bfc399745f98f22404e054bdb01.bindTooltip(
+                `<div>
+                     Itaquera, Precisao 92.67%. Preco Medio aptos: R$ 203513.65
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ad07394f8e64d0db03f0ff48085aa70 = L.marker(
+                [-23.60431848857143, -46.530661717142856],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_d026a4370a274c35bf7b992a2faa3b1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1ad07394f8e64d0db03f0ff48085aa70.setIcon(icon_d026a4370a274c35bf7b992a2faa3b1b);
+        
+    
+        var popup_d2ddef3140624a6d9936c892475a64e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_678b41bfb8b44dad972034787f28487e = $(`<div id="html_678b41bfb8b44dad972034787f28487e" style="width: 100.0%; height: 100.0%;">Jardim Ângela, Precisao 91.87%. Preco Medio aptos R$ 257670.69</div>`)[0];
+            popup_d2ddef3140624a6d9936c892475a64e1.setContent(html_678b41bfb8b44dad972034787f28487e);
+        
+
+        marker_1ad07394f8e64d0db03f0ff48085aa70.bindPopup(popup_d2ddef3140624a6d9936c892475a64e1)
+        ;
+
+        
+    
+    
+            marker_1ad07394f8e64d0db03f0ff48085aa70.bindTooltip(
+                `<div>
+                     Jardim Ângela, Precisao 91.87%. Preco Medio aptos: R$ 257670.69
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2780c7ba7db34c8198c1d1b39a83a37f = L.marker(
+                [-23.53624775, -46.41002184740884],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_2cc6afc0c7404691a2c6257b6f22f752 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2780c7ba7db34c8198c1d1b39a83a37f.setIcon(icon_2cc6afc0c7404691a2c6257b6f22f752);
+        
+    
+        var popup_6ce994ada1f846ecae6d04d320458471 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9142fa9e4ee842c4b06e5c4c8f90c678 = $(`<div id="html_9142fa9e4ee842c4b06e5c4c8f90c678" style="width: 100.0%; height: 100.0%;">Lajeado, Precisao 89.26%. Preco Medio aptos R$ 172281.82</div>`)[0];
+            popup_6ce994ada1f846ecae6d04d320458471.setContent(html_9142fa9e4ee842c4b06e5c4c8f90c678);
+        
+
+        marker_2780c7ba7db34c8198c1d1b39a83a37f.bindPopup(popup_6ce994ada1f846ecae6d04d320458471)
+        ;
+
+        
+    
+    
+            marker_2780c7ba7db34c8198c1d1b39a83a37f.bindTooltip(
+                `<div>
+                     Lajeado, Precisao 89.26%. Preco Medio aptos: R$ 172281.82
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75e93af709d94ca1b8af7b0812a756b7 = L.marker(
+                [-23.577605044062317, -46.487961462962964],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_6125cb624a1245959fe67b240f91db31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_75e93af709d94ca1b8af7b0812a756b7.setIcon(icon_6125cb624a1245959fe67b240f91db31);
+        
+    
+        var popup_5ffe0865f1954ed69038d6b33bbe54da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91a1b16ca8c54a4e8192d66557ee56c5 = $(`<div id="html_91a1b16ca8c54a4e8192d66557ee56c5" style="width: 100.0%; height: 100.0%;">Parque do Carmo, Precisao 93.8%. Preco Medio aptos R$ 220245.33</div>`)[0];
+            popup_5ffe0865f1954ed69038d6b33bbe54da.setContent(html_91a1b16ca8c54a4e8192d66557ee56c5);
+        
+
+        marker_75e93af709d94ca1b8af7b0812a756b7.bindPopup(popup_5ffe0865f1954ed69038d6b33bbe54da)
+        ;
+
+        
+    
+    
+            marker_75e93af709d94ca1b8af7b0812a756b7.bindTooltip(
+                `<div>
+                     Parque do Carmo, Precisao 93.8%. Preco Medio aptos: R$ 220245.33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17919b8d52864550974a790951a6e89f = L.marker(
+                [-23.52156710182381, -46.535201189853225],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_34ca7582577d42a1a3e159487264e308 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17919b8d52864550974a790951a6e89f.setIcon(icon_34ca7582577d42a1a3e159487264e308);
+        
+    
+        var popup_7c6dc39d4f14416d814ef035cbb6d842 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4186dd3b595f44b48af1ba831d2588f4 = $(`<div id="html_4186dd3b595f44b48af1ba831d2588f4" style="width: 100.0%; height: 100.0%;">Penha, Precisao 89.21%. Preco Medio aptos R$ 316459.41</div>`)[0];
+            popup_7c6dc39d4f14416d814ef035cbb6d842.setContent(html_4186dd3b595f44b48af1ba831d2588f4);
+        
+
+        marker_17919b8d52864550974a790951a6e89f.bindPopup(popup_7c6dc39d4f14416d814ef035cbb6d842)
+        ;
+
+        
+    
+    
+            marker_17919b8d52864550974a790951a6e89f.bindTooltip(
+                `<div>
+                     Penha, Precisao 89.21%. Preco Medio aptos: R$ 316459.41
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_783d611085e34d7ab382ecbcb56afff2 = L.marker(
+                [-23.511918748, -46.49257864583333],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_0236e5148c7a4550802e0e0576fc3954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_783d611085e34d7ab382ecbcb56afff2.setIcon(icon_0236e5148c7a4550802e0e0576fc3954);
+        
+    
+        var popup_dccf5cc06c4841919ac404f5d3b88bc3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ee6ee13a0e44fe81d188d9c33a78ab = $(`<div id="html_28ee6ee13a0e44fe81d188d9c33a78ab" style="width: 100.0%; height: 100.0%;">Ponte Rasa, Precisao 91.99%. Preco Medio aptos R$ 260982.14</div>`)[0];
+            popup_dccf5cc06c4841919ac404f5d3b88bc3.setContent(html_28ee6ee13a0e44fe81d188d9c33a78ab);
+        
+
+        marker_783d611085e34d7ab382ecbcb56afff2.bindPopup(popup_dccf5cc06c4841919ac404f5d3b88bc3)
+        ;
+
+        
+    
+    
+            marker_783d611085e34d7ab382ecbcb56afff2.bindTooltip(
+                `<div>
+                     Ponte Rasa, Precisao 91.99%. Preco Medio aptos: R$ 260982.14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd06021b3fe443c5ab46d36e4a7b9a52 = L.marker(
+                [-23.59212005, -46.52457389824561],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_1ee15667032845f395f4bc785ea83583 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd06021b3fe443c5ab46d36e4a7b9a52.setIcon(icon_1ee15667032845f395f4bc785ea83583);
+        
+    
+        var popup_2a933c81e2d84132b5ca994e72fa6f85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4c11eff9d13c43c793b540b542b223d9 = $(`<div id="html_4c11eff9d13c43c793b540b542b223d9" style="width: 100.0%; height: 100.0%;">Sapopemba, Precisao 89.34%. Preco Medio aptos R$ 296037.02</div>`)[0];
+            popup_2a933c81e2d84132b5ca994e72fa6f85.setContent(html_4c11eff9d13c43c793b540b542b223d9);
+        
+
+        marker_dd06021b3fe443c5ab46d36e4a7b9a52.bindPopup(popup_2a933c81e2d84132b5ca994e72fa6f85)
+        ;
+
+        
+    
+    
+            marker_dd06021b3fe443c5ab46d36e4a7b9a52.bindTooltip(
+                `<div>
+                     Sapopemba, Precisao 89.34%. Preco Medio aptos: R$ 296037.02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b5e415d650e4be8a96c5639a1d92b33 = L.marker(
+                [-23.604239785714284, -46.48644742631579],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_a0ac7c88169c498e8efcd5fef18b3a6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b5e415d650e4be8a96c5639a1d92b33.setIcon(icon_a0ac7c88169c498e8efcd5fef18b3a6a);
+        
+    
+        var popup_cafc525c4e1b4eda8a3a4900b6a02303 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afd1c0011f704e61b1e2cf22b94676de = $(`<div id="html_afd1c0011f704e61b1e2cf22b94676de" style="width: 100.0%; height: 100.0%;">São Mateus, Precisao 92.0%. Preco Medio aptos R$ 219135.29</div>`)[0];
+            popup_cafc525c4e1b4eda8a3a4900b6a02303.setContent(html_afd1c0011f704e61b1e2cf22b94676de);
+        
+
+        marker_7b5e415d650e4be8a96c5639a1d92b33.bindPopup(popup_cafc525c4e1b4eda8a3a4900b6a02303)
+        ;
+
+        
+    
+    
+            marker_7b5e415d650e4be8a96c5639a1d92b33.bindTooltip(
+                `<div>
+                     São Mateus, Precisao 92.0%. Preco Medio aptos: R$ 219135.29
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf13d5ff9bf48728ddb080ff813b1c4 = L.marker(
+                [-23.5047388, -46.522164],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_7dd67243ddcd4dad9cde19e6bccaa9b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_caf13d5ff9bf48728ddb080ff813b1c4.setIcon(icon_7dd67243ddcd4dad9cde19e6bccaa9b1);
+        
+    
+        var popup_939dbd294f234f788f2bd0da5774e076 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcc7da5d50ad4e09a7f416b3777271ac = $(`<div id="html_fcc7da5d50ad4e09a7f416b3777271ac" style="width: 100.0%; height: 100.0%;">São Miguel, Precisao 92.15%. Preco Medio aptos R$ 269424.24</div>`)[0];
+            popup_939dbd294f234f788f2bd0da5774e076.setContent(html_fcc7da5d50ad4e09a7f416b3777271ac);
+        
+
+        marker_caf13d5ff9bf48728ddb080ff813b1c4.bindPopup(popup_939dbd294f234f788f2bd0da5774e076)
+        ;
+
+        
+    
+    
+            marker_caf13d5ff9bf48728ddb080ff813b1c4.bindTooltip(
+                `<div>
+                     São Miguel, Precisao 92.15%. Preco Medio aptos: R$ 269424.24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f743e373f8ca45e49a26b2466568756a = L.marker(
+                [-23.631690302941177, -46.49484328571429],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_f77361cfb0a2406e8f8ea9da0fe60a54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f743e373f8ca45e49a26b2466568756a.setIcon(icon_f77361cfb0a2406e8f8ea9da0fe60a54);
+        
+    
+        var popup_32d517467a7c4f39945101f57ea04eae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da8552459de64afabedb40df94b2a1ea = $(`<div id="html_da8552459de64afabedb40df94b2a1ea" style="width: 100.0%; height: 100.0%;">São Rafael, Precisao 93.43%. Preco Medio aptos R$ 198221.73</div>`)[0];
+            popup_32d517467a7c4f39945101f57ea04eae.setContent(html_da8552459de64afabedb40df94b2a1ea);
+        
+
+        marker_f743e373f8ca45e49a26b2466568756a.bindPopup(popup_32d517467a7c4f39945101f57ea04eae)
+        ;
+
+        
+    
+    
+            marker_f743e373f8ca45e49a26b2466568756a.bindTooltip(
+                `<div>
+                     São Rafael, Precisao 93.43%. Preco Medio aptos: R$ 198221.73
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba2ad55723634828b42002fb8aba71a5 = L.marker(
+                [-23.510438148648646, -46.487415],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_6ca900a6115d4a809b0224723bdd5966 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba2ad55723634828b42002fb8aba71a5.setIcon(icon_6ca900a6115d4a809b0224723bdd5966);
+        
+    
+        var popup_92622ee490dd469f8d36f4aacab7fd70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_195ba297cb0446c884d59fe12048c401 = $(`<div id="html_195ba297cb0446c884d59fe12048c401" style="width: 100.0%; height: 100.0%;">Vila Curuçá, Precisao 93.85%. Preco Medio aptos R$ 233474.07</div>`)[0];
+            popup_92622ee490dd469f8d36f4aacab7fd70.setContent(html_195ba297cb0446c884d59fe12048c401);
+        
+
+        marker_ba2ad55723634828b42002fb8aba71a5.bindPopup(popup_92622ee490dd469f8d36f4aacab7fd70)
+        ;
+
+        
+    
+    
+            marker_ba2ad55723634828b42002fb8aba71a5.bindTooltip(
+                `<div>
+                     Vila Curuçá, Precisao 93.85%. Preco Medio aptos: R$ 233474.07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6eceb5c0d68d4b2a8afd0d457a28038f = L.marker(
+                [-23.500294, -46.458717352058315],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_c2501491b6f74d52bb92f8e646e58992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6eceb5c0d68d4b2a8afd0d457a28038f.setIcon(icon_c2501491b6f74d52bb92f8e646e58992);
+        
+    
+        var popup_c39670f4b1c94fb292597f11e0c0428f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9badcfba08de491792159e4dfb7ff650 = $(`<div id="html_9badcfba08de491792159e4dfb7ff650" style="width: 100.0%; height: 100.0%;">Vila Jacuí, Precisao 92.36%. Preco Medio aptos R$ 290244.96</div>`)[0];
+            popup_c39670f4b1c94fb292597f11e0c0428f.setContent(html_9badcfba08de491792159e4dfb7ff650);
+        
+
+        marker_6eceb5c0d68d4b2a8afd0d457a28038f.bindPopup(popup_c39670f4b1c94fb292597f11e0c0428f)
+        ;
+
+        
+    
+    
+            marker_6eceb5c0d68d4b2a8afd0d457a28038f.bindTooltip(
+                `<div>
+                     Vila Jacuí, Precisao 92.36%. Preco Medio aptos: R$ 290244.96
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd02f746c3464b05bdabc18b108af29e = L.marker(
+                [-23.535237822448977, -46.528480128571424],
+                {}
+            ).addTo(marker_cluster_44141f93a33f4f96b71faa42e066ea32);
+        
+    
+            var icon_00e58fa05f474fe6ac729f3c6941ac14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dd02f746c3464b05bdabc18b108af29e.setIcon(icon_00e58fa05f474fe6ac729f3c6941ac14);
+        
+    
+        var popup_e6e22670b1204082ae6ba3830c784a10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d33ca6dcf7413bbaa06ca2b6d56ea0 = $(`<div id="html_14d33ca6dcf7413bbaa06ca2b6d56ea0" style="width: 100.0%; height: 100.0%;">Vila Matilde, Precisao 91.59%. Preco Medio aptos R$ 342881.11</div>`)[0];
+            popup_e6e22670b1204082ae6ba3830c784a10.setContent(html_14d33ca6dcf7413bbaa06ca2b6d56ea0);
+        
+
+        marker_dd02f746c3464b05bdabc18b108af29e.bindPopup(popup_e6e22670b1204082ae6ba3830c784a10)
+        ;
+
+        
+    
+    
+            marker_dd02f746c3464b05bdabc18b108af29e.bindTooltip(
+                `<div>
+                     Vila Matilde, Precisao 91.59%. Preco Medio aptos: R$ 342881.11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_37bbefcdb3634ce7b94cfb730f52b19a = L.featureGroup(
+                {}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+    
+            var marker_cluster_02189a823e864ffa8018784af887675c = L.markerClusterGroup(
+                {}
+            );
+            feature_group_37bbefcdb3634ce7b94cfb730f52b19a.addLayer(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var marker_c91426dd75604ee886da419eaefe1097 = L.marker(
+                [-23.54690845543478, -46.710279047826084],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_171fc09495ce40a0b12ca86ecfd811b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c91426dd75604ee886da419eaefe1097.setIcon(icon_171fc09495ce40a0b12ca86ecfd811b6);
+        
+    
+        var popup_820c98b823e94e8f80ee04c107439953 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ce97417c0f4481198e777adb53f84b3 = $(`<div id="html_6ce97417c0f4481198e777adb53f84b3" style="width: 100.0%; height: 100.0%;">Alto de Pinheiros, Precisao 90.43%. Preco Medio aptos R$ 2494160.31</div>`)[0];
+            popup_820c98b823e94e8f80ee04c107439953.setContent(html_6ce97417c0f4481198e777adb53f84b3);
+        
+
+        marker_c91426dd75604ee886da419eaefe1097.bindPopup(popup_820c98b823e94e8f80ee04c107439953)
+        ;
+
+        
+    
+    
+            marker_c91426dd75604ee886da419eaefe1097.bindTooltip(
+                `<div>
+                     Alto de Pinheiros, Precisao 90.43%. Preco Medio aptos: R$ 2494160.31
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a9d353a2b474f5f850fd33b80f3cc23 = L.marker(
+                [-23.52364339430755, -46.66363482584434],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_925adbff905f4da9a9b6d4283a620531 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a9d353a2b474f5f850fd33b80f3cc23.setIcon(icon_925adbff905f4da9a9b6d4283a620531);
+        
+    
+        var popup_fec5579a69f64e26a767fbec48cd60c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_017cc03dc51d4a3fb53155a0109d34c2 = $(`<div id="html_017cc03dc51d4a3fb53155a0109d34c2" style="width: 100.0%; height: 100.0%;">Barra Funda, Precisao 91.52%. Preco Medio aptos R$ 592736.64</div>`)[0];
+            popup_fec5579a69f64e26a767fbec48cd60c1.setContent(html_017cc03dc51d4a3fb53155a0109d34c2);
+        
+
+        marker_5a9d353a2b474f5f850fd33b80f3cc23.bindPopup(popup_fec5579a69f64e26a767fbec48cd60c1)
+        ;
+
+        
+    
+    
+            marker_5a9d353a2b474f5f850fd33b80f3cc23.bindTooltip(
+                `<div>
+                     Barra Funda, Precisao 91.52%. Preco Medio aptos: R$ 592736.64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73eeaf88caf0461484cef2cb81ccbe27 = L.marker(
+                [-23.539634021698117, -46.593825811320755],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_e6711e52506f43ba91acc3d67b7ed641 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73eeaf88caf0461484cef2cb81ccbe27.setIcon(icon_e6711e52506f43ba91acc3d67b7ed641);
+        
+    
+        var popup_d1b66cf287b94b25a3e184084a407099 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7142bb891fa548ef8ff6eb2fa3b8b821 = $(`<div id="html_7142bb891fa548ef8ff6eb2fa3b8b821" style="width: 100.0%; height: 100.0%;">Belém, Precisao 92.6%. Preco Medio aptos R$ 551998.08</div>`)[0];
+            popup_d1b66cf287b94b25a3e184084a407099.setContent(html_7142bb891fa548ef8ff6eb2fa3b8b821);
+        
+
+        marker_73eeaf88caf0461484cef2cb81ccbe27.bindPopup(popup_d1b66cf287b94b25a3e184084a407099)
+        ;
+
+        
+    
+    
+            marker_73eeaf88caf0461484cef2cb81ccbe27.bindTooltip(
+                `<div>
+                     Belém, Precisao 92.6%. Preco Medio aptos: R$ 551998.08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5c8aa8fbc5440fbac893d63aab2a814 = L.marker(
+                [-23.52481426058394, -46.64165833576642],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_872f78f5305248ed8322345aeb3a2b83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e5c8aa8fbc5440fbac893d63aab2a814.setIcon(icon_872f78f5305248ed8322345aeb3a2b83);
+        
+    
+        var popup_bbf2c45bf34542489ac0e55e4b329de9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a5123823da6426e991fca5177c835e0 = $(`<div id="html_0a5123823da6426e991fca5177c835e0" style="width: 100.0%; height: 100.0%;">Bom Retiro, Precisao 90.38%. Preco Medio aptos R$ 475495.54</div>`)[0];
+            popup_bbf2c45bf34542489ac0e55e4b329de9.setContent(html_0a5123823da6426e991fca5177c835e0);
+        
+
+        marker_e5c8aa8fbc5440fbac893d63aab2a814.bindPopup(popup_bbf2c45bf34542489ac0e55e4b329de9)
+        ;
+
+        
+    
+    
+            marker_e5c8aa8fbc5440fbac893d63aab2a814.bindTooltip(
+                `<div>
+                     Bom Retiro, Precisao 90.38%. Preco Medio aptos: R$ 475495.54
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_283f19e2c02a4d5984833d2f69843d33 = L.marker(
+                [-23.467618088235294, -46.68877735294117],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_bdd734a7c3464b84ae88427a6970213e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_283f19e2c02a4d5984833d2f69843d33.setIcon(icon_bdd734a7c3464b84ae88427a6970213e);
+        
+    
+        var popup_5e401c8860494257a453408872d71876 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99ee3ba9ef2547caa9f0626632aaa774 = $(`<div id="html_99ee3ba9ef2547caa9f0626632aaa774" style="width: 100.0%; height: 100.0%;">Brasilândia, Precisao 92.07%. Preco Medio aptos R$ 214397.06</div>`)[0];
+            popup_5e401c8860494257a453408872d71876.setContent(html_99ee3ba9ef2547caa9f0626632aaa774);
+        
+
+        marker_283f19e2c02a4d5984833d2f69843d33.bindPopup(popup_5e401c8860494257a453408872d71876)
+        ;
+
+        
+    
+    
+            marker_283f19e2c02a4d5984833d2f69843d33.bindTooltip(
+                `<div>
+                     Brasilândia, Precisao 92.07%. Preco Medio aptos: R$ 214397.06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_51896ac88b904359b67818d689215770 = L.marker(
+                [-23.54649459115044, -46.61411482035398],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_e422db9993d54f3cb6c7b27f1eb5b75c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51896ac88b904359b67818d689215770.setIcon(icon_e422db9993d54f3cb6c7b27f1eb5b75c);
+        
+    
+        var popup_650aa058a3a24f219be90a1afddcdd34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fe2004e86924abab90098576c2f46be = $(`<div id="html_1fe2004e86924abab90098576c2f46be" style="width: 100.0%; height: 100.0%;">Brás, Precisao 91.47%. Preco Medio aptos R$ 327331.64</div>`)[0];
+            popup_650aa058a3a24f219be90a1afddcdd34.setContent(html_1fe2004e86924abab90098576c2f46be);
+        
+
+        marker_51896ac88b904359b67818d689215770.bindPopup(popup_650aa058a3a24f219be90a1afddcdd34)
+        ;
+
+        
+    
+    
+            marker_51896ac88b904359b67818d689215770.bindTooltip(
+                `<div>
+                     Brás, Precisao 91.47%. Preco Medio aptos: R$ 327331.64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6d8e4d9e853402f815310883b261c2b = L.marker(
+                [-23.47229548387097, -46.658434032258064],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_5024e947287e438a93776149ac730039 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c6d8e4d9e853402f815310883b261c2b.setIcon(icon_5024e947287e438a93776149ac730039);
+        
+    
+        var popup_36bcc26c1630430c91f2268b9caedefb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_093e165491044744a1ff606c891bf665 = $(`<div id="html_093e165491044744a1ff606c891bf665" style="width: 100.0%; height: 100.0%;">Cachoeirinha, Precisao 95.01%. Preco Medio aptos R$ 266353.33</div>`)[0];
+            popup_36bcc26c1630430c91f2268b9caedefb.setContent(html_093e165491044744a1ff606c891bf665);
+        
+
+        marker_c6d8e4d9e853402f815310883b261c2b.bindPopup(popup_36bcc26c1630430c91f2268b9caedefb)
+        ;
+
+        
+    
+    
+            marker_c6d8e4d9e853402f815310883b261c2b.bindTooltip(
+                `<div>
+                     Cachoeirinha, Precisao 95.01%. Preco Medio aptos: R$ 266353.33
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_caf3f50407d64687a78404f8267f19ef = L.marker(
+                [-23.507957866428573, -46.65720299428572],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_7a821b539a894746ac7e4eedb0f7f09e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_caf3f50407d64687a78404f8267f19ef.setIcon(icon_7a821b539a894746ac7e4eedb0f7f09e);
+        
+    
+        var popup_9a90b8d964624ac1a5f8ff80598850f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f611fb3687a4037a10bb06d738847bc = $(`<div id="html_7f611fb3687a4037a10bb06d738847bc" style="width: 100.0%; height: 100.0%;">Casa Verde, Precisao 88.86%. Preco Medio aptos R$ 568397.0</div>`)[0];
+            popup_9a90b8d964624ac1a5f8ff80598850f7.setContent(html_7f611fb3687a4037a10bb06d738847bc);
+        
+
+        marker_caf3f50407d64687a78404f8267f19ef.bindPopup(popup_9a90b8d964624ac1a5f8ff80598850f7)
+        ;
+
+        
+    
+    
+            marker_caf3f50407d64687a78404f8267f19ef.bindTooltip(
+                `<div>
+                     Casa Verde, Precisao 88.86%. Preco Medio aptos: R$ 568397.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_493c752c11664a39a4f4fac403aaefaf = L.marker(
+                [-23.55264008611939, -46.65390641025306],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_cffd912b805a4f63bf17cd568392234b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_493c752c11664a39a4f4fac403aaefaf.setIcon(icon_cffd912b805a4f63bf17cd568392234b);
+        
+    
+        var popup_974dd7fc56de4494a63baf035c74044a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b0368d8fe3c46f29158ef7a00dc88c4 = $(`<div id="html_7b0368d8fe3c46f29158ef7a00dc88c4" style="width: 100.0%; height: 100.0%;">Consolação, Precisao 88.35%. Preco Medio aptos R$ 950672.88</div>`)[0];
+            popup_974dd7fc56de4494a63baf035c74044a.setContent(html_7b0368d8fe3c46f29158ef7a00dc88c4);
+        
+
+        marker_493c752c11664a39a4f4fac403aaefaf.bindPopup(popup_974dd7fc56de4494a63baf035c74044a)
+        ;
+
+        
+    
+    
+            marker_493c752c11664a39a4f4fac403aaefaf.bindTooltip(
+                `<div>
+                     Consolação, Precisao 88.35%. Preco Medio aptos: R$ 950672.88
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2402e9616f4d4959943d02f4c2f3dea8 = L.marker(
+                [-23.496792833333334, -46.69512366666667],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_10b30bebfdfd472bb550b75dd3d16724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2402e9616f4d4959943d02f4c2f3dea8.setIcon(icon_10b30bebfdfd472bb550b75dd3d16724);
+        
+    
+        var popup_4eb8d59c24cf48e489b3afb94260def9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbbad7eba2bf46e5835944b02af311e4 = $(`<div id="html_cbbad7eba2bf46e5835944b02af311e4" style="width: 100.0%; height: 100.0%;">Freguesia do Ó, Precisao 91.38%. Preco Medio aptos R$ 381819.67</div>`)[0];
+            popup_4eb8d59c24cf48e489b3afb94260def9.setContent(html_cbbad7eba2bf46e5835944b02af311e4);
+        
+
+        marker_2402e9616f4d4959943d02f4c2f3dea8.bindPopup(popup_4eb8d59c24cf48e489b3afb94260def9)
+        ;
+
+        
+    
+    
+            marker_2402e9616f4d4959943d02f4c2f3dea8.bindTooltip(
+                `<div>
+                     Freguesia do Ó, Precisao 91.38%. Preco Medio aptos: R$ 381819.67
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99c7168565824adba540f5bfeb134444 = L.marker(
+                [-23.54880506101695, -46.617527],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_4c7d3d810b974f7f8d6ba25711f0be4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_99c7168565824adba540f5bfeb134444.setIcon(icon_4c7d3d810b974f7f8d6ba25711f0be4c);
+        
+    
+        var popup_a0e48af1385247e794548966bd79aba6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3415ec3da7b4f5f9cd34e53cf4dc8a6 = $(`<div id="html_f3415ec3da7b4f5f9cd34e53cf4dc8a6" style="width: 100.0%; height: 100.0%;">Guaianazes, Precisao 89.0%. Preco Medio aptos R$ 192249.74</div>`)[0];
+            popup_a0e48af1385247e794548966bd79aba6.setContent(html_f3415ec3da7b4f5f9cd34e53cf4dc8a6);
+        
+
+        marker_99c7168565824adba540f5bfeb134444.bindPopup(popup_a0e48af1385247e794548966bd79aba6)
+        ;
+
+        
+    
+    
+            marker_99c7168565824adba540f5bfeb134444.bindTooltip(
+                `<div>
+                     Guaianazes, Precisao 89.0%. Preco Medio aptos: R$ 192249.74
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f83ad18055c74632850ac73d9d047e67 = L.marker(
+                [-23.50004415263158, -46.6227832],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_d896257247f14d2592290879c3ae263d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f83ad18055c74632850ac73d9d047e67.setIcon(icon_d896257247f14d2592290879c3ae263d);
+        
+    
+        var popup_0840f2ad18fd4a2eb0cbdd7b4d618c39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a598568e787460abef902a57276a61d = $(`<div id="html_1a598568e787460abef902a57276a61d" style="width: 100.0%; height: 100.0%;">Itaim Paulista, Precisao 86.58%. Preco Medio aptos R$ 217213.8</div>`)[0];
+            popup_0840f2ad18fd4a2eb0cbdd7b4d618c39.setContent(html_1a598568e787460abef902a57276a61d);
+        
+
+        marker_f83ad18055c74632850ac73d9d047e67.bindPopup(popup_0840f2ad18fd4a2eb0cbdd7b4d618c39)
+        ;
+
+        
+    
+    
+            marker_f83ad18055c74632850ac73d9d047e67.bindTooltip(
+                `<div>
+                     Itaim Paulista, Precisao 86.58%. Preco Medio aptos: R$ 217213.8
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16f6f4ae1f904f8e9a2a33fc5f63447e = L.marker(
+                [-23.54967605263158, -46.74140894736842],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_faf6b12d0617496f981168d1e72eeb71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_16f6f4ae1f904f8e9a2a33fc5f63447e.setIcon(icon_faf6b12d0617496f981168d1e72eeb71);
+        
+    
+        var popup_038a1daadeac4e1e9cb9ac745de794e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46a0a37c011340ba8d0c1a485bfb8e70 = $(`<div id="html_46a0a37c011340ba8d0c1a485bfb8e70" style="width: 100.0%; height: 100.0%;">Jaguaré, Precisao 91.08%. Preco Medio aptos R$ 671086.26</div>`)[0];
+            popup_038a1daadeac4e1e9cb9ac745de794e1.setContent(html_46a0a37c011340ba8d0c1a485bfb8e70);
+        
+
+        marker_16f6f4ae1f904f8e9a2a33fc5f63447e.bindPopup(popup_038a1daadeac4e1e9cb9ac745de794e1)
+        ;
+
+        
+    
+    
+            marker_16f6f4ae1f904f8e9a2a33fc5f63447e.bindTooltip(
+                `<div>
+                     Jaguaré, Precisao 91.08%. Preco Medio aptos: R$ 671086.26
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0b055bd672e4216bfc0f5271b4a0d94 = L.marker(
+                [-23.524197454545455, -46.64698272727273],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_f1345792f4e14f0ba0efde6a4129295d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0b055bd672e4216bfc0f5271b4a0d94.setIcon(icon_f1345792f4e14f0ba0efde6a4129295d);
+        
+    
+        var popup_6e84f38454224ef495a79f197e3fbdd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62c6fbb361aa48e883bf4c839e01e574 = $(`<div id="html_62c6fbb361aa48e883bf4c839e01e574" style="width: 100.0%; height: 100.0%;">Jaraguá, Precisao 91.42%. Preco Medio aptos R$ 474091.0</div>`)[0];
+            popup_6e84f38454224ef495a79f197e3fbdd7.setContent(html_62c6fbb361aa48e883bf4c839e01e574);
+        
+
+        marker_f0b055bd672e4216bfc0f5271b4a0d94.bindPopup(popup_6e84f38454224ef495a79f197e3fbdd7)
+        ;
+
+        
+    
+    
+            marker_f0b055bd672e4216bfc0f5271b4a0d94.bindTooltip(
+                `<div>
+                     Jaraguá, Precisao 91.42%. Preco Medio aptos: R$ 474091.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f3cf5eb881e4ee393339d4a44da1155 = L.marker(
+                [-23.54048649230769, -46.63230225],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_ac6dc621e6254025b113b91929a4c945 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f3cf5eb881e4ee393339d4a44da1155.setIcon(icon_ac6dc621e6254025b113b91929a4c945);
+        
+    
+        var popup_32655f0c838343539afd139a29142504 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_20d2f28d792c474a8f9f5c288db98c84 = $(`<div id="html_20d2f28d792c474a8f9f5c288db98c84" style="width: 100.0%; height: 100.0%;">José Bonifácio, Precisao 90.56%. Preco Medio aptos R$ 250622.24</div>`)[0];
+            popup_32655f0c838343539afd139a29142504.setContent(html_20d2f28d792c474a8f9f5c288db98c84);
+        
+
+        marker_3f3cf5eb881e4ee393339d4a44da1155.bindPopup(popup_32655f0c838343539afd139a29142504)
+        ;
+
+        
+    
+    
+            marker_3f3cf5eb881e4ee393339d4a44da1155.bindTooltip(
+                `<div>
+                     José Bonifácio, Precisao 90.56%. Preco Medio aptos: R$ 250622.24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b146eb0b006048a791fe8f6bfb67f787 = L.marker(
+                [-23.519812666666667, -46.70937054545455],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_9224dfae582b4ad89cedb2972a600382 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b146eb0b006048a791fe8f6bfb67f787.setIcon(icon_9224dfae582b4ad89cedb2972a600382);
+        
+    
+        var popup_9632d927dfcc432ba89b4fbdae8d36ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3105609571f48bda53f7e9cf42c9f66 = $(`<div id="html_f3105609571f48bda53f7e9cf42c9f66" style="width: 100.0%; height: 100.0%;">Lapa, Precisao 89.2%. Preco Medio aptos R$ 665166.91</div>`)[0];
+            popup_9632d927dfcc432ba89b4fbdae8d36ed.setContent(html_f3105609571f48bda53f7e9cf42c9f66);
+        
+
+        marker_b146eb0b006048a791fe8f6bfb67f787.bindPopup(popup_9632d927dfcc432ba89b4fbdae8d36ed)
+        ;
+
+        
+    
+    
+            marker_b146eb0b006048a791fe8f6bfb67f787.bindTooltip(
+                `<div>
+                     Lapa, Precisao 89.2%. Preco Medio aptos: R$ 665166.91
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_578d551b44f14dba8475a3958f83b4fc = L.marker(
+                [-23.497910235294118, -46.67682173529412],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_b85ebb0510774efe8f5e4543152e648d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_578d551b44f14dba8475a3958f83b4fc.setIcon(icon_b85ebb0510774efe8f5e4543152e648d);
+        
+    
+        var popup_8923176063d848d9a3b3bb3a255df01e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_655c085651f54d0986b637dcfe68fdd4 = $(`<div id="html_655c085651f54d0986b637dcfe68fdd4" style="width: 100.0%; height: 100.0%;">Limão, Precisao 93.21%. Preco Medio aptos R$ 389373.68</div>`)[0];
+            popup_8923176063d848d9a3b3bb3a255df01e.setContent(html_655c085651f54d0986b637dcfe68fdd4);
+        
+
+        marker_578d551b44f14dba8475a3958f83b4fc.bindPopup(popup_8923176063d848d9a3b3bb3a255df01e)
+        ;
+
+        
+    
+    
+            marker_578d551b44f14dba8475a3958f83b4fc.bindTooltip(
+                `<div>
+                     Limão, Precisao 93.21%. Preco Medio aptos: R$ 389373.68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56b6d0506d9d455bb59e3e51181659b3 = L.marker(
+                [-23.477441562410473, -46.63517793033905],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_93a01d8eeec34a0c81fc9b7f9ae43161 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56b6d0506d9d455bb59e3e51181659b3.setIcon(icon_93a01d8eeec34a0c81fc9b7f9ae43161);
+        
+    
+        var popup_e54e823c2b4c46279d4264983d26054c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fd582d8ab37448faa50811ba82a03c5 = $(`<div id="html_1fd582d8ab37448faa50811ba82a03c5" style="width: 100.0%; height: 100.0%;">Mandaqui, Precisao 90.78%. Preco Medio aptos R$ 558750.0</div>`)[0];
+            popup_e54e823c2b4c46279d4264983d26054c.setContent(html_1fd582d8ab37448faa50811ba82a03c5);
+        
+
+        marker_56b6d0506d9d455bb59e3e51181659b3.bindPopup(popup_e54e823c2b4c46279d4264983d26054c)
+        ;
+
+        
+    
+    
+            marker_56b6d0506d9d455bb59e3e51181659b3.bindTooltip(
+                `<div>
+                     Mandaqui, Precisao 90.78%. Preco Medio aptos: R$ 558750.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cd7b2c021f64228b8270c3ef2b486ac = L.marker(
+                [-23.528979165454547, -46.59752515636364],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_08a4b741a165469eab97948efdf84ac9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cd7b2c021f64228b8270c3ef2b486ac.setIcon(icon_08a4b741a165469eab97948efdf84ac9);
+        
+    
+        var popup_9462403ec3974f8d92a27df6134613db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95980d7a33f7455db9038f1e49bed2a4 = $(`<div id="html_95980d7a33f7455db9038f1e49bed2a4" style="width: 100.0%; height: 100.0%;">Pari, Precisao 92.36%. Preco Medio aptos R$ 541493.1</div>`)[0];
+            popup_9462403ec3974f8d92a27df6134613db.setContent(html_95980d7a33f7455db9038f1e49bed2a4);
+        
+
+        marker_5cd7b2c021f64228b8270c3ef2b486ac.bindPopup(popup_9462403ec3974f8d92a27df6134613db)
+        ;
+
+        
+    
+    
+            marker_5cd7b2c021f64228b8270c3ef2b486ac.bindTooltip(
+                `<div>
+                     Pari, Precisao 92.36%. Preco Medio aptos: R$ 541493.1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dba0d2f515d94c31b4a1d44bf6c9faac = L.marker(
+                [-23.535574582490426, -46.67730853063723],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_1e2f5081683943808be4eb697a083b06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dba0d2f515d94c31b4a1d44bf6c9faac.setIcon(icon_1e2f5081683943808be4eb697a083b06);
+        
+    
+        var popup_c57af4ff22214928b2539c68d2f37c66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65fac0bb3e4e4008aa3527b04c120b93 = $(`<div id="html_65fac0bb3e4e4008aa3527b04c120b93" style="width: 100.0%; height: 100.0%;">Perdizes, Precisao 89.69%. Preco Medio aptos R$ 1188294.01</div>`)[0];
+            popup_c57af4ff22214928b2539c68d2f37c66.setContent(html_65fac0bb3e4e4008aa3527b04c120b93);
+        
+
+        marker_dba0d2f515d94c31b4a1d44bf6c9faac.bindPopup(popup_c57af4ff22214928b2539c68d2f37c66)
+        ;
+
+        
+    
+    
+            marker_dba0d2f515d94c31b4a1d44bf6c9faac.bindTooltip(
+                `<div>
+                     Perdizes, Precisao 89.69%. Preco Medio aptos: R$ 1188294.01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ce1d01aa6db64b18831d8e0ae74e57d4 = L.marker(
+                [-23.405569904761904, -46.740257428571425],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_33b7cb4461734411b3c36b9633d19081 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ce1d01aa6db64b18831d8e0ae74e57d4.setIcon(icon_33b7cb4461734411b3c36b9633d19081);
+        
+    
+        var popup_c7bb227a895c4df0b707ddab28f80ee2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b2bfefa4fb4496cb9599c65ed9c723d = $(`<div id="html_8b2bfefa4fb4496cb9599c65ed9c723d" style="width: 100.0%; height: 100.0%;">Perus, Precisao 92.07%. Preco Medio aptos R$ 189809.05</div>`)[0];
+            popup_c7bb227a895c4df0b707ddab28f80ee2.setContent(html_8b2bfefa4fb4496cb9599c65ed9c723d);
+        
+
+        marker_ce1d01aa6db64b18831d8e0ae74e57d4.bindPopup(popup_c7bb227a895c4df0b707ddab28f80ee2)
+        ;
+
+        
+    
+    
+            marker_ce1d01aa6db64b18831d8e0ae74e57d4.bindTooltip(
+                `<div>
+                     Perus, Precisao 92.07%. Preco Medio aptos: R$ 189809.05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12a753d867934fbc9b9b94ea7c0a961f = L.marker(
+                [-23.4895345, -46.72592894117647],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_8150d41d735b47dd8edb5150b927d9ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12a753d867934fbc9b9b94ea7c0a961f.setIcon(icon_8150d41d735b47dd8edb5150b927d9ef);
+        
+    
+        var popup_3c635f6d41c84b669f95ed7617637397 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac8c986a6e9a4808862ca207e02a1d8d = $(`<div id="html_ac8c986a6e9a4808862ca207e02a1d8d" style="width: 100.0%; height: 100.0%;">Pirituba, Precisao 91.0%. Preco Medio aptos R$ 366517.14</div>`)[0];
+            popup_3c635f6d41c84b669f95ed7617637397.setContent(html_ac8c986a6e9a4808862ca207e02a1d8d);
+        
+
+        marker_12a753d867934fbc9b9b94ea7c0a961f.bindPopup(popup_3c635f6d41c84b669f95ed7617637397)
+        ;
+
+        
+    
+    
+            marker_12a753d867934fbc9b9b94ea7c0a961f.bindTooltip(
+                `<div>
+                     Pirituba, Precisao 91.0%. Preco Medio aptos: R$ 366517.14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0019e3da276440ebd2a62193083834a = L.marker(
+                [-23.54286005154639, -46.64436390103093],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_620833d1b48e4bd4b59f9ef384448367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e0019e3da276440ebd2a62193083834a.setIcon(icon_620833d1b48e4bd4b59f9ef384448367);
+        
+    
+        var popup_fc12dfe3b7d7423dade890d78e5ca26f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1babb06238124e02ac2c817ecccf7e4b = $(`<div id="html_1babb06238124e02ac2c817ecccf7e4b" style="width: 100.0%; height: 100.0%;">República, Precisao 88.21%. Preco Medio aptos R$ 495178.49</div>`)[0];
+            popup_fc12dfe3b7d7423dade890d78e5ca26f.setContent(html_1babb06238124e02ac2c817ecccf7e4b);
+        
+
+        marker_e0019e3da276440ebd2a62193083834a.bindPopup(popup_fc12dfe3b7d7423dade890d78e5ca26f)
+        ;
+
+        
+    
+    
+            marker_e0019e3da276440ebd2a62193083834a.bindTooltip(
+                `<div>
+                     República, Precisao 88.21%. Preco Medio aptos: R$ 495178.49
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b623980190e346c69c936f8bf0fd1bbf = L.marker(
+                [-23.536869922222223, -46.65397754166666],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_78f3b169a66149379d0c81cc2dca2819 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b623980190e346c69c936f8bf0fd1bbf.setIcon(icon_78f3b169a66149379d0c81cc2dca2819);
+        
+    
+        var popup_fa11b149764f4d579475a3d69e2b5f24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4478f7f7d8194a75973095588f07d09d = $(`<div id="html_4478f7f7d8194a75973095588f07d09d" style="width: 100.0%; height: 100.0%;">Santa Cecília, Precisao 87.42%. Preco Medio aptos R$ 785607.47</div>`)[0];
+            popup_fa11b149764f4d579475a3d69e2b5f24.setContent(html_4478f7f7d8194a75973095588f07d09d);
+        
+
+        marker_b623980190e346c69c936f8bf0fd1bbf.bindPopup(popup_fa11b149764f4d579475a3d69e2b5f24)
+        ;
+
+        
+    
+    
+            marker_b623980190e346c69c936f8bf0fd1bbf.bindTooltip(
+                `<div>
+                     Santa Cecília, Precisao 87.42%. Preco Medio aptos: R$ 785607.47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69deebcd6eca4b3aaa1c0dd3fa40d8ae = L.marker(
+                [-23.49474686851852, -46.63116987962963],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_84f0a48ea42d446fb6beb2ed600377cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69deebcd6eca4b3aaa1c0dd3fa40d8ae.setIcon(icon_84f0a48ea42d446fb6beb2ed600377cb);
+        
+    
+        var popup_ea073b0d051448bc868f42ace33f16da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c4d6a8ba4344774879f33c30e4f0d3f = $(`<div id="html_5c4d6a8ba4344774879f33c30e4f0d3f" style="width: 100.0%; height: 100.0%;">Santana, Precisao 90.68%. Preco Medio aptos R$ 841098.02</div>`)[0];
+            popup_ea073b0d051448bc868f42ace33f16da.setContent(html_5c4d6a8ba4344774879f33c30e4f0d3f);
+        
+
+        marker_69deebcd6eca4b3aaa1c0dd3fa40d8ae.bindPopup(popup_ea073b0d051448bc868f42ace33f16da)
+        ;
+
+        
+    
+    
+            marker_69deebcd6eca4b3aaa1c0dd3fa40d8ae.bindTooltip(
+                `<div>
+                     Santana, Precisao 90.68%. Preco Medio aptos: R$ 841098.02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6030bbcb12c34e1fac6e025fd59e631a = L.marker(
+                [-23.50154506060606, -46.737082939393936],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_c150b91defd243cb85fa0b56bbb9deb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6030bbcb12c34e1fac6e025fd59e631a.setIcon(icon_c150b91defd243cb85fa0b56bbb9deb4);
+        
+    
+        var popup_ab9ce493310f4e5c9e5216938835458b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af2e6a5186ab4889805f4a1e0148b5eb = $(`<div id="html_af2e6a5186ab4889805f4a1e0148b5eb" style="width: 100.0%; height: 100.0%;">São Domingos, Precisao 90.16%. Preco Medio aptos R$ 371874.74</div>`)[0];
+            popup_ab9ce493310f4e5c9e5216938835458b.setContent(html_af2e6a5186ab4889805f4a1e0148b5eb);
+        
+
+        marker_6030bbcb12c34e1fac6e025fd59e631a.bindPopup(popup_ab9ce493310f4e5c9e5216938835458b)
+        ;
+
+        
+    
+    
+            marker_6030bbcb12c34e1fac6e025fd59e631a.bindTooltip(
+                `<div>
+                     São Domingos, Precisao 90.16%. Preco Medio aptos: R$ 371874.74
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5e17a56d5f94701b6756e6fc1c2703a = L.marker(
+                [-23.453238246938778, -46.60748374285714],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_a30821d0309c4285a6ed0b5f681c687c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5e17a56d5f94701b6756e6fc1c2703a.setIcon(icon_a30821d0309c4285a6ed0b5f681c687c);
+        
+    
+        var popup_36a517a3826d4392b756cf1461445e8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfd2aad8f99d4cd7a1a4dfb2911742cc = $(`<div id="html_cfd2aad8f99d4cd7a1a4dfb2911742cc" style="width: 100.0%; height: 100.0%;">Tremembé, Precisao 88.2%. Preco Medio aptos R$ 545904.47</div>`)[0];
+            popup_36a517a3826d4392b756cf1461445e8e.setContent(html_cfd2aad8f99d4cd7a1a4dfb2911742cc);
+        
+
+        marker_d5e17a56d5f94701b6756e6fc1c2703a.bindPopup(popup_36a517a3826d4392b756cf1461445e8e)
+        ;
+
+        
+    
+    
+            marker_d5e17a56d5f94701b6756e6fc1c2703a.bindTooltip(
+                `<div>
+                     Tremembé, Precisao 88.2%. Preco Medio aptos: R$ 545904.47
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0ca91eadf9af448190bc88831fedb72c = L.marker(
+                [-23.476874261012277, -46.60745897306315],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_d51da346a3bc4dcea53c7aad0690bc68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0ca91eadf9af448190bc88831fedb72c.setIcon(icon_d51da346a3bc4dcea53c7aad0690bc68);
+        
+    
+        var popup_3a4fbaa824fe4e06b855b4cf20692a58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1058e19228234a5a861e3a2ef6819615 = $(`<div id="html_1058e19228234a5a861e3a2ef6819615" style="width: 100.0%; height: 100.0%;">Tucuruvi, Precisao 88.99%. Preco Medio aptos R$ 490571.68</div>`)[0];
+            popup_3a4fbaa824fe4e06b855b4cf20692a58.setContent(html_1058e19228234a5a861e3a2ef6819615);
+        
+
+        marker_0ca91eadf9af448190bc88831fedb72c.bindPopup(popup_3a4fbaa824fe4e06b855b4cf20692a58)
+        ;
+
+        
+    
+    
+            marker_0ca91eadf9af448190bc88831fedb72c.bindTooltip(
+                `<div>
+                     Tucuruvi, Precisao 88.99%. Preco Medio aptos: R$ 490571.68
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_676fe92d8feb4b3eaa54cd93e2bdc563 = L.marker(
+                [-23.511040315384616, -46.60408373846153],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_cd868ed51fb84b46a11a0730123f0930 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_676fe92d8feb4b3eaa54cd93e2bdc563.setIcon(icon_cd868ed51fb84b46a11a0730123f0930);
+        
+    
+        var popup_9de3cf469fd8492bbf6b262141e44e71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04954e89317641639f426a36a0949679 = $(`<div id="html_04954e89317641639f426a36a0949679" style="width: 100.0%; height: 100.0%;">Vila Guilherme, Precisao 92.71%. Preco Medio aptos R$ 495581.21</div>`)[0];
+            popup_9de3cf469fd8492bbf6b262141e44e71.setContent(html_04954e89317641639f426a36a0949679);
+        
+
+        marker_676fe92d8feb4b3eaa54cd93e2bdc563.bindPopup(popup_9de3cf469fd8492bbf6b262141e44e71)
+        ;
+
+        
+    
+    
+            marker_676fe92d8feb4b3eaa54cd93e2bdc563.bindTooltip(
+                `<div>
+                     Vila Guilherme, Precisao 92.71%. Preco Medio aptos: R$ 495581.21
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3055e65a850043bba1a66ff16574786e = L.marker(
+                [-23.52826197222222, -46.73147108333333],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_5a044163b3124dd9b7b9e76e5687b5bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3055e65a850043bba1a66ff16574786e.setIcon(icon_5a044163b3124dd9b7b9e76e5687b5bb);
+        
+    
+        var popup_411f3354c3234709a48104d00b7b39dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54564850f17b40ec8ef7a622437db6bc = $(`<div id="html_54564850f17b40ec8ef7a622437db6bc" style="width: 100.0%; height: 100.0%;">Vila Leopoldina, Precisao 93.5%. Preco Medio aptos R$ 983725.0</div>`)[0];
+            popup_411f3354c3234709a48104d00b7b39dd.setContent(html_54564850f17b40ec8ef7a622437db6bc);
+        
+
+        marker_3055e65a850043bba1a66ff16574786e.bindPopup(popup_411f3354c3234709a48104d00b7b39dd)
+        ;
+
+        
+    
+    
+            marker_3055e65a850043bba1a66ff16574786e.bindTooltip(
+                `<div>
+                     Vila Leopoldina, Precisao 93.5%. Preco Medio aptos: R$ 983725.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e86aa317ffc4dd3b3517542510f7cc7 = L.marker(
+                [-23.5152870028169, -46.586202921126755],
+                {}
+            ).addTo(marker_cluster_02189a823e864ffa8018784af887675c);
+        
+    
+            var icon_ff7c1455e6ab453abf3926fafa51d233 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e86aa317ffc4dd3b3517542510f7cc7.setIcon(icon_ff7c1455e6ab453abf3926fafa51d233);
+        
+    
+        var popup_33b2bb911e9b43cf95908265e8e74f13 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4900d84b88c463b8de96b2bbc5e8df1 = $(`<div id="html_a4900d84b88c463b8de96b2bbc5e8df1" style="width: 100.0%; height: 100.0%;">Vila Maria, Precisao 91.6%. Preco Medio aptos R$ 392198.38</div>`)[0];
+            popup_33b2bb911e9b43cf95908265e8e74f13.setContent(html_a4900d84b88c463b8de96b2bbc5e8df1);
+        
+
+        marker_8e86aa317ffc4dd3b3517542510f7cc7.bindPopup(popup_33b2bb911e9b43cf95908265e8e74f13)
+        ;
+
+        
+    
+    
+            marker_8e86aa317ffc4dd3b3517542510f7cc7.bindTooltip(
+                `<div>
+                     Vila Maria, Precisao 91.6%. Preco Medio aptos: R$ 392198.38
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_ba8de1db34cc46209d356eb321ac45da = L.featureGroup(
+                {}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+    
+            var marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c = L.markerClusterGroup(
+                {}
+            );
+            feature_group_ba8de1db34cc46209d356eb321ac45da.addLayer(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var marker_4694ebedf2394cc4a061a8f35ccad62c = L.marker(
+                [-23.55041071641791, -46.53820689104478],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_95928d419a6445fcae8750d35cc02e12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4694ebedf2394cc4a061a8f35ccad62c.setIcon(icon_95928d419a6445fcae8750d35cc02e12);
+        
+    
+        var popup_296b3b5f152b478fa9acdb2c7332f860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cd9b201d56741f498804d3bfeebc5dd = $(`<div id="html_6cd9b201d56741f498804d3bfeebc5dd" style="width: 100.0%; height: 100.0%;">Carrão, Precisao 92.53%. Preco Medio aptos R$ 542703.36</div>`)[0];
+            popup_296b3b5f152b478fa9acdb2c7332f860.setContent(html_6cd9b201d56741f498804d3bfeebc5dd);
+        
+
+        marker_4694ebedf2394cc4a061a8f35ccad62c.bindPopup(popup_296b3b5f152b478fa9acdb2c7332f860)
+        ;
+
+        
+    
+    
+            marker_4694ebedf2394cc4a061a8f35ccad62c.bindTooltip(
+                `<div>
+                     Carrão, Precisao 92.53%. Preco Medio aptos: R$ 542703.36
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bbabf41fb974a13a519b1e20187ba52 = L.marker(
+                [-23.521979683783787, -46.573205],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_547d6d2ee65b46fe91858ea59272697d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2bbabf41fb974a13a519b1e20187ba52.setIcon(icon_547d6d2ee65b46fe91858ea59272697d);
+        
+    
+        var popup_d11cf8165d8740df8cde50e36d87e4b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d83c73fc6ca046b78a01ac5c418aaec2 = $(`<div id="html_d83c73fc6ca046b78a01ac5c418aaec2" style="width: 100.0%; height: 100.0%;">Jardim Helena, Precisao 87.31%. Preco Medio aptos R$ 232620.0</div>`)[0];
+            popup_d11cf8165d8740df8cde50e36d87e4b8.setContent(html_d83c73fc6ca046b78a01ac5c418aaec2);
+        
+
+        marker_2bbabf41fb974a13a519b1e20187ba52.bindPopup(popup_d11cf8165d8740df8cde50e36d87e4b8)
+        ;
+
+        
+    
+    
+            marker_2bbabf41fb974a13a519b1e20187ba52.bindTooltip(
+                `<div>
+                     Jardim Helena, Precisao 87.31%. Preco Medio aptos: R$ 232620.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b4aca9a47e345d596067e5e951fc0eb = L.marker(
+                [-23.4695043, -46.57842343663367],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_4199c06b44a04b0c8c432e935e291a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b4aca9a47e345d596067e5e951fc0eb.setIcon(icon_4199c06b44a04b0c8c432e935e291a9c);
+        
+    
+        var popup_99909586c46641a3b627887871094a6a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cec9caed4dc42b59e2399a5d068b819 = $(`<div id="html_4cec9caed4dc42b59e2399a5d068b819" style="width: 100.0%; height: 100.0%;">Jaçanã, Precisao 92.4%. Preco Medio aptos R$ 289027.7</div>`)[0];
+            popup_99909586c46641a3b627887871094a6a.setContent(html_4cec9caed4dc42b59e2399a5d068b819);
+        
+
+        marker_6b4aca9a47e345d596067e5e951fc0eb.bindPopup(popup_99909586c46641a3b627887871094a6a)
+        ;
+
+        
+    
+    
+            marker_6b4aca9a47e345d596067e5e951fc0eb.bindTooltip(
+                `<div>
+                     Jaçanã, Precisao 92.4%. Preco Medio aptos: R$ 289027.7
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cb25170a0c7421c8dae81d845d174d6 = L.marker(
+                [-23.59778543497125, -46.53648380840633],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_aa6efc2c32984177ab1be5e2eee1696b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cb25170a0c7421c8dae81d845d174d6.setIcon(icon_aa6efc2c32984177ab1be5e2eee1696b);
+        
+    
+        var popup_3517eafaefb04abc8e2bd1e03343fa37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3a08ffeb25a48188a205811cd65bc56 = $(`<div id="html_f3a08ffeb25a48188a205811cd65bc56" style="width: 100.0%; height: 100.0%;">São Lucas, Precisao 93.13%. Preco Medio aptos R$ 352864.64</div>`)[0];
+            popup_3517eafaefb04abc8e2bd1e03343fa37.setContent(html_f3a08ffeb25a48188a205811cd65bc56);
+        
+
+        marker_1cb25170a0c7421c8dae81d845d174d6.bindPopup(popup_3517eafaefb04abc8e2bd1e03343fa37)
+        ;
+
+        
+    
+    
+            marker_1cb25170a0c7421c8dae81d845d174d6.bindTooltip(
+                `<div>
+                     São Lucas, Precisao 93.13%. Preco Medio aptos: R$ 352864.64
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8effb8e08fe641c189c398f735d41830 = L.marker(
+                [-23.540136403396925, -46.56962248846],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_3b0441aacadb48c6a2032e1acbdfb599 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8effb8e08fe641c189c398f735d41830.setIcon(icon_3b0441aacadb48c6a2032e1acbdfb599);
+        
+    
+        var popup_4cacb84636554a92bd39d53bd25c5223 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1c06223d282431b8ef52b81cfded7f4 = $(`<div id="html_a1c06223d282431b8ef52b81cfded7f4" style="width: 100.0%; height: 100.0%;">Tatuapé, Precisao 90.59%. Preco Medio aptos R$ 756637.55</div>`)[0];
+            popup_4cacb84636554a92bd39d53bd25c5223.setContent(html_a1c06223d282431b8ef52b81cfded7f4);
+        
+
+        marker_8effb8e08fe641c189c398f735d41830.bindPopup(popup_4cacb84636554a92bd39d53bd25c5223)
+        ;
+
+        
+    
+    
+            marker_8effb8e08fe641c189c398f735d41830.bindTooltip(
+                `<div>
+                     Tatuapé, Precisao 90.59%. Preco Medio aptos: R$ 756637.55
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4555bccaea546a8bed24ec13535ace6 = L.marker(
+                [-23.56569428235294, -46.543627632941174],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_9317a16c4d4f49cab964ff1bd45643d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b4555bccaea546a8bed24ec13535ace6.setIcon(icon_9317a16c4d4f49cab964ff1bd45643d6);
+        
+    
+        var popup_abc7e6299d934a539384b8df441f44b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdec005979a04958a84d73921ea17b84 = $(`<div id="html_cdec005979a04958a84d73921ea17b84" style="width: 100.0%; height: 100.0%;">Vila Formosa, Precisao 88.87%. Preco Medio aptos R$ 575608.34</div>`)[0];
+            popup_abc7e6299d934a539384b8df441f44b6.setContent(html_cdec005979a04958a84d73921ea17b84);
+        
+
+        marker_b4555bccaea546a8bed24ec13535ace6.bindPopup(popup_abc7e6299d934a539384b8df441f44b6)
+        ;
+
+        
+    
+    
+            marker_b4555bccaea546a8bed24ec13535ace6.bindTooltip(
+                `<div>
+                     Vila Formosa, Precisao 88.87%. Preco Medio aptos: R$ 575608.34
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c70372a7cec24759b4010c423b0fc614 = L.marker(
+                [-23.48857478, -46.579134190000005],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_14c1de9396694e969ed044b5b5fd192f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c70372a7cec24759b4010c423b0fc614.setIcon(icon_14c1de9396694e969ed044b5b5fd192f);
+        
+    
+        var popup_10cbc2f7d3634b6ebbdf50120bfcb814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b4b246ea4824af3bd287380a5536483 = $(`<div id="html_4b4b246ea4824af3bd287380a5536483" style="width: 100.0%; height: 100.0%;">Vila Medeiros, Precisao 92.13%. Preco Medio aptos R$ 266351.59</div>`)[0];
+            popup_10cbc2f7d3634b6ebbdf50120bfcb814.setContent(html_4b4b246ea4824af3bd287380a5536483);
+        
+
+        marker_c70372a7cec24759b4010c423b0fc614.bindPopup(popup_10cbc2f7d3634b6ebbdf50120bfcb814)
+        ;
+
+        
+    
+    
+            marker_c70372a7cec24759b4010c423b0fc614.bindTooltip(
+                `<div>
+                     Vila Medeiros, Precisao 92.13%. Preco Medio aptos: R$ 266351.59
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3037bdfc0bfc4fe08532769380979870 = L.marker(
+                [-23.58916866111111, -46.57483340444445],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_a486119437f7454794dd4186529ef09c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3037bdfc0bfc4fe08532769380979870.setIcon(icon_a486119437f7454794dd4186529ef09c);
+        
+    
+        var popup_a62f9bb5d2eb404ea7c36ffecfea77db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4211555ecb2e449087f518c78fe89920 = $(`<div id="html_4211555ecb2e449087f518c78fe89920" style="width: 100.0%; height: 100.0%;">Vila Prudente, Precisao 88.7%. Preco Medio aptos R$ 398343.19</div>`)[0];
+            popup_a62f9bb5d2eb404ea7c36ffecfea77db.setContent(html_4211555ecb2e449087f518c78fe89920);
+        
+
+        marker_3037bdfc0bfc4fe08532769380979870.bindPopup(popup_a62f9bb5d2eb404ea7c36ffecfea77db)
+        ;
+
+        
+    
+    
+            marker_3037bdfc0bfc4fe08532769380979870.bindTooltip(
+                `<div>
+                     Vila Prudente, Precisao 88.7%. Preco Medio aptos: R$ 398343.19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1a7f822a01d497fb9c3fe91686b70e5 = L.marker(
+                [-23.56695405319857, -46.57071353095073],
+                {}
+            ).addTo(marker_cluster_fa9eae8ee2614f2a9a2ca29816880c1c);
+        
+    
+            var icon_d888a835f8c742bbba3de3ad0643cd8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "book", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1a7f822a01d497fb9c3fe91686b70e5.setIcon(icon_d888a835f8c742bbba3de3ad0643cd8f);
+        
+    
+        var popup_d7f0793f0cf34a09b5747ef4cda069e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba03cb2cf2054ee288179773dddeca3c = $(`<div id="html_ba03cb2cf2054ee288179773dddeca3c" style="width: 100.0%; height: 100.0%;">Água Rasa, Precisao 91.63%. Preco Medio aptos R$ 617861.11</div>`)[0];
+            popup_d7f0793f0cf34a09b5747ef4cda069e7.setContent(html_ba03cb2cf2054ee288179773dddeca3c);
+        
+
+        marker_c1a7f822a01d497fb9c3fe91686b70e5.bindPopup(popup_d7f0793f0cf34a09b5747ef4cda069e7)
+        ;
+
+        
+    
+    
+            marker_c1a7f822a01d497fb9c3fe91686b70e5.bindTooltip(
+                `<div>
+                     Água Rasa, Precisao 91.63%. Preco Medio aptos: R$ 617861.11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_08a6a3c7aec348ecb2044c4635a018b9 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_b67954691cb34920b90c83dce3b7ab64,
+                },
+                overlays :  {
+                    "Sul" : feature_group_1e4f70cf09a14f9c9b8ce9b511b9e04c,
+                    "Leste" : feature_group_613f55d393ac4ff6980f03558ef4eb9d,
+                    "Centro/Norte" : feature_group_37bbefcdb3634ce7b94cfb730f52b19a,
+                    "Centro/Leste" : feature_group_ba8de1db34cc46209d356eb321ac45da,
+                },
+            };
+            L.control.layers(
+                layer_control_08a6a3c7aec348ecb2044c4635a018b9.base_layers,
+                layer_control_08a6a3c7aec348ecb2044c4635a018b9.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topright"}
+            ).addTo(map_073dbf557ff74bd0a3ba41421c53bc51);
+        
+</script>
