@@ -1,6 +1,8 @@
 # TCC-Puc-Minas--Preco_aptos-SP
 Modelo Preditivo de Preços dos Aptos em São Paulo - Script, datasets e imagens
 
+"TCC Ciência de Dados 2022 e script.pdf" - TCC (Relatório) em formato .pdf
+
 "TCC - Leandro Marchezan do Nascimento Lopes.ipynb" - SCRIPT PYTHON para Jupyter Notebook contendo modelo preditivo e análise de precos de apartamentos na cidade de São Paulo
 
 Datasets:
